@@ -1,0 +1,125 @@
+{
+    "title": "Openpilot 中文 Wiki",
+    "description": "Openpilot 中文 Wiki",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+        }
+    },
+    "styles":{
+        "website":"files/style1.css"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "prism",
+        "prism-themes",
+        "search-plus@^0.0.11",
+        "simple-page-toc@^0.1.1",
+        "github@^2.0.0",
+        "github-buttons@2.1.0",
+        "edit-link@^2.0.2",
+        "-sharing",
+        "sharing-plus@^0.0.2",
+        "tbfed-pagefooter@^0.0.1",
+        "custom-favicon",
+        "anchor-navigation-ex",
+        "3-ba",
+        "bilibili",
+        "copy-code-button",
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "openpilot-zhong-wen-wiki"
+        },
+        "github": {
+            "url": "https://github.com/Rming/comma-wiki-cn"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ]
+        },
+        "github-buttons": {
+            "repo": "Rming/comma-wiki-cn",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper",
+                "linkedin",
+                "pocket",
+                "stumbleupon",
+                "qq",
+                "qzone"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright ©",
+            "modify_label": "<b style=\"color:red\">本站由afaaa授权 Dragonpilot社区维护，本页最后更新：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss</b>"
+        },
+        "3-ba": {
+            "token": "93067bff7758a5f7a248a0b6e1d38f9d"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "edit-link": {
+            "base": "https://github.com/Rming/comma-wiki-cn/edit/master",
+            "label": "Edit This Page"
+        },
+        "sitemap-general": {
+            "prefix": "http://sdut.me"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "favicon": "/files/favicon.ico"
+    }
+}
