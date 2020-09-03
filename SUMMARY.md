@@ -31,5 +31,6 @@
 * [EON 快拆底座制作指南](cn/EON_Connector.md)
 * [EON 亚克力外壳](cn/eon_acrylic_case.md)
 * [raspberry-pilot 安装指南](cn/how_to_install_raspberrypilot.md)
+* [学习的页面](cn/try.md)
 * [关于本站](about.md)
 * [版权声明](copyright.md)
