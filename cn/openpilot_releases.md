@@ -23,6 +23,10 @@
 * 支持现代Ioniq Electric Limited 2019和Ioniq SE 2020（感谢baldwalker）
 * 支持斯巴鲁森林人2019和Ascent 2019（感谢martinl）
 
+### Version 0.7.6.1 (2020-06-16)
+
+* 修补程序：在一comma 2上更新内核（顺序为#8570-#8680）
+
 ### Version 0.7.6 (2020-06-05)
 
 * 白熊猫即将被废弃，请升级为 comma 2 或者 黑熊猫
