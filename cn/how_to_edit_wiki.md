@@ -75,8 +75,19 @@ git status 可以查看情况
 
 10.git commit -m "your note" 添加说明，主要说明这次提交的是什么修改
 
+```bash
+git commit -m "你的修改说明"
+```
 ![](../files/how_to_edit_wiki/10.JPG)
 
-11.git push -u origin
+11.推送到自己的仓库
+```bash
+git push -u origin
+```
+![](../files/how_to_edit_wiki/11.JPG)
 
 12.到 dragonpilot/dragonpilot_wiki 点 New Pull Request.
+
+![](../files/how_to_edit_wiki/12.JPG)
+
+13.微信上联系社区相关工作人员（微信号：Coffice）查看并合并你的提交
