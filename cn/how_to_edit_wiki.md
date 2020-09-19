@@ -60,11 +60,22 @@ Typora的图片设置推荐如下路径 ../files/${filename}
 
 9.检查文件状态并添加文件
 
+git add <文件名> 增加单个文件  
 
+或是  
 
-git add <文件名或是"*">
+git add * 增加所有修改文件
+```bash
+git add *
+```
 
-10.git commit
+![](../files/how_to_edit_wiki/09.JPG)
+
+git status 可以查看情况
+
+10.git commit -m "your note" 添加说明，主要说明这次提交的是什么修改
+
+![](../files/how_to_edit_wiki/10.JPG)
 
 11.git push -u origin
 
