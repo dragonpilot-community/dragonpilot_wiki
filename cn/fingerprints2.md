@@ -4,6 +4,8 @@
 
 OpenPilot 0.70之后，开始使用基于ECU固件版本的指纹识别 识别当前连接的什么车型（/data/openpilot/selfdrive/car/{汽车厂商}/values.py 文件中的指纹信息列表）。
 
+**获取车辆指纹2.0需要连接OBDⅡ接口**
+
 1. 汽车未启动情况下，使用电脑连接到 EON 并打开 SSH 窗口[1]：
 ```bash
 killall tmux
@@ -60,9 +62,14 @@ Found FW versions
       b'57114-TPG-A020\x00\x00',
     ],
     
-    将
-    b'57114-TMB-H030\x00\x00'
-    按照规则添加
-    
+将b'57114-TMB-H030\x00\x00'按照规则添加到对应位置
+
+CAR.CRV_HYBRID: {
+    (Ecu.vsa, 0x18da28f1, None): [
+      b'57114-TPA-G020\x00\x00',
+      b'57114-TPG-A020\x00\x00',
+      b'57114-TMB-H030\x00\x00'，
+    ],
+
    如需将车辆指纹2.0提交给官方
    需要参考https://github.com/commaai/openpilot/wiki/Fingerprinting
