@@ -37,7 +37,7 @@
 - [EON 亚克力外壳](cn/eon_acrylic_case.md)
 - [raspberry-pilot 安装指南](cn/how_to_install_raspberrypilot.md)
 - [如何一起编辑op百科](cn/how_to_edit_wiki.md)
-- [Git for Windows安装和基本设置](cn/Git for Windows安装和基本设置.md)
+- [Git for Windows安装和基本设置](cn/Git_for_Windows安装和基本设置.md)
 - [Github进行fork后如何与原仓库同步](cn/Github进行fork后如何与原仓库同步.md)
 - [关于本站](about.md)
 - [版权声明](copyright.md)
