@@ -1,6 +1,7 @@
 ## Openpilot 版本更新记录
 
 - [更新记录[英文原版]](openpilot_releases_en.md)
+
 ### Version 0.7.9 (2020-10-xx)
 
 ### Version 0.7.8 (2020-08-19)
