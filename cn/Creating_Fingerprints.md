@@ -18,7 +18,7 @@ OpenPilot 通过对比 CAN 信号读取到的车辆指纹信息 与 已知的指
 1. 车辆熄火后，通过 Giraffe 或者 Car harness  把 PANDA（白熊，黑熊，C2分情况） 连接到车上，EON 连接到 PANDA 上，EON上运行openpilot。
 2.  如果你用的是 Car harness（黑熊或者C2），在EON 的UI 界面将**启用openpilot**的选项**关闭**，这样你的EON会使用 **原车模式（stock mode）**。
 
-【实际测试中发现，本田博世的摄像头（CRV，inspire）抓取2.0指纹需要修改can端口，
+【实际测试中发现，本田博世的摄像头（CRV，inspire）抓取1.0指纹需要修改can端口，
 具体是把/data/openpilot/selfdrive/debug/get_fingerprint.py，
 将文件内  if c.src in [0, 2] and c.address < 0x800: ，修改为  if c.src in [0, 1] and c.address < 0x800: ，
 其他车型未知，如果抓取指纹出现和同类车型区别较大的时候，可以考虑这个修改】
