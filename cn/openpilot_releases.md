@@ -2,7 +2,12 @@
 
 - [更新记录[英文原版]](openpilot_releases_en.md)
 
-### Version 0.7.9 (2020-10-xx)
+### Version 0.7.9 (2020-10-09)
+* 优化电源管理
+* 优化更新鲁棒性（稳定性和可靠性）
+* 提示实时性能
+* 减少UI和模型延迟
+* 在2020 Hyundai Sonata and Palisade车型增加扭矩
 
 ### Version 0.7.8 (2020-08-19)
 
