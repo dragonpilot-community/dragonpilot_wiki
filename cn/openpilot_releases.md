@@ -2,7 +2,7 @@
 
 - [更新记录[英文原版]](openpilot_releases_en.md)
 
-### Version 0.7.9 (2020-10-09)
+### Version 0.7.10 (2020-10-29)
 
 * 硬件灰熊（Grey panda） 不再支持，请升级到 逗号2代（comma two） 或者 黑熊（black panda）
 * NEOS升级：更新到Python3.8.2并降低CPU使用频率
