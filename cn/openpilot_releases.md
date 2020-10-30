@@ -2,6 +2,7 @@
 
 - [更新记录[英文原版]](openpilot_releases_en.md)
 
+
 ### Version 0.7.10 (2020-10-29)
 
 * 硬件灰熊（Grey panda） 不再支持，请升级到 逗号2代（comma two） 或者 黑熊（black panda）
@@ -19,7 +20,7 @@
 * 改善updater程序的鲁棒性
 * 提升了实时性能
 * 减少了用户界面和模型延迟
-* 提升了2020款现代索纳塔（Sonata）和帕里斯帝（Palisade）车型的转向扭矩
+
 
 ### Version 0.7.8 (2020-08-19)
 
