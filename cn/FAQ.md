@@ -58,7 +58,7 @@ Openpilot 官方版本支持 **车道保持** 、**ACC巡航**、**自动辅助�
 
 在堵车排队的路况下，部分原车支持 ACC 排队的车型，支持较好，可以获得和原车一样的体验，当然也要注意防止加塞车辆没有被正确识别的情况。
 
-原车不支持**全速域ACC**的情况下，可以尝试加装 [hw-pedal](https://github.com/commaai/neo/tree/master/pedal)，不过有一定的未知风险。
+原车不支持**全速域ACC**的情况下，从[官方](https://github.com/commaai/openpilot)的“Supported Cars”列表中可以看到一部分丰田的车可以断开“ Driver Support Unit (DSU) ”(加装[smatDSU](https://github.com/wocsor/panda/tree/smart_dsu),参考[视频](https://www.bilibili.com/video/BV1wC4y187Gq))实现全速域控车；部分车可以加装 [hw-pedal](https://github.com/commaai/neo/tree/master/pedal)（官方不提供设备），不过有一定的未知风险。![sng-dsu](../files/FAQ/sng-dsu.png)
 
 
 ### Openpilot 还不具备预碰撞缓解功能（AEB）？
