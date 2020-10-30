@@ -24,7 +24,7 @@ eon进入twrp
 
  
 ### 3.使用一键升级NEOS15刷机工具升级
-[NEOS15刷机工具](http://wiki.dragonpilot.cn/files/software/一键升级NEOS15修改版.rar)
+[点击下载NEOS15刷机工具](http://wiki.dragonpilot.cn/files/software/一键升级NEOS15修改版.rar)
 
 使用方法：
 解压一键升级NEOS15修改版放在桌面
