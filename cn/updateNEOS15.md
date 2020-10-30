@@ -18,8 +18,11 @@ op 0.7.10要求升级NEOS版本到neos15
 
  
 2）使用twrp，卡刷升级
+
 eon进入twrp
+
 把第一步下载的zip压缩包和img，传入twrp状态下eon，twrp内选择刷入
+
 自行选择刷入system升级包或者comma官方推荐的recovery
 
  
