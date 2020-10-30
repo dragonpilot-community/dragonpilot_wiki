@@ -2,6 +2,49 @@
 
 - [更新记录[中文翻译]](openpilot_releases.md)
 
+### Version 0.7.10 (2020-10-29)
+
+* Grey panda is deprecated, upgrade to comma two or black panda
+* NEOS update: update to Python 3.8.2 and lower CPU frequency
+* Improved thermals due to reduced CPU frequency
+* Update SNPE to 1.41.0
+* Reduced offroad power consumption
+* Various system stability improvements
+* Acura RDX 2020 support thanks to csouers!
+
+### Version 0.7.9 (2020-10-09)
+
+ * Improved car battery power management
+ * Improved updater robustness
+ * Improved realtime performance
+ * Reduced UI and modeld lags
+ * Increased torque on 2020 Hyundai Sonata and Palisade
+
+### Version 0.7.8 (2020-08-19)
+
+ * New driver monitoring model: improved face detection and better compatibility with sunglasses
+ * Download NEOS operating system updates in the background
+ * Improved updater reliability and responsiveness
+ * Hyundai Kona 2020, Veloster 2019, and Genesis G70 2018 support thanks to xps-genesis!
+
+### Version 0.7.7 (2020-07-20)
+
+ * White panda is no longer supported, upgrade to comma two or black panda
+ * Improved vehicle model estimation using high precision localizer
+ * Improved thermal management on comma two
+ * Improved autofocus for road-facing camera
+ * Improved noise performance for driver-facing camera
+ * Block lane change start using blindspot monitor on select Toyota, Hyundai, and Subaru
+ * Fix GM ignition detection
+ * Code cleanup and smaller release sizes
+ * Hyundai Sonata 2020 promoted to officially supported car
+ * Hyundai Ioniq Electric Limited 2019 and Ioniq SE 2020 support thanks to baldwalker!
+ * Subaru Forester 2019 and Ascent 2019 support thanks to martinl!
+
+### Version 0.7.6.1 (2020-06-16)
+
+* Hotfix: update kernel on some comma twos (orders #8570-#8680)
+
 ### Version 0.7.6 (2020-06-05)
 
 * White panda is deprecated, upgrade to comma two or black panda

@@ -37,10 +37,10 @@ d.sdut.me/{分叉}/{分支}
 d.sdut.me/kegman/kegman-0.7.3
 ```
 
-以 dragonpilot 项目举例，如果我们想安装 `devel-zhs` 分支，那么我们在 Software Url 界面应该填入的地址就是：
+以 dragonpilot 项目举例，如果我们想安装 `devel-i18n` 分支，那么我们在 Software Url 界面应该填入的地址就是：
 
 ```bash
-d.sdut.me/dp/devel-zhs
+d.sdut.me/dp/devel-i18n
 ```
 备注：这里的 `dp` 是 `dragonpilot` 的简写，当然，你也可以写 `d.sdut.me/dragonpilot/devel-zhs`
 

@@ -1,12 +1,26 @@
 ## Openpilot 版本更新记录
 
 - [更新记录[英文原版]](openpilot_releases_en.md)
+
+
+### Version 0.7.10 (2020-10-29)
+
+* 硬件灰熊（Grey panda） 不再支持，请升级到 逗号2代（comma two） 或者 黑熊（black panda）
+* NEOS升级：更新到Python3.8.2并降低CPU使用频率
+* 由于CPU使用频率降低，热性能得到了改善
+* 更新SNPE至1.41.0
+* 降低设备待机状态下的功耗
+* 各种系统稳定性改进
+* Acura RDX 2020支持，感谢csouers
+
+
 ### Version 0.7.9 (2020-10-09)
+
 * 优化电源管理
-* 优化更新鲁棒性（稳定性和可靠性）
-* 提示实时性能
-* 减少UI和模型延迟
-* 在2020 Hyundai Sonata and Palisade车型增加扭矩
+* 改善updater程序的鲁棒性
+* 提升了实时性能
+* 减少了用户界面和模型延迟
+
 
 ### Version 0.7.8 (2020-08-19)
 

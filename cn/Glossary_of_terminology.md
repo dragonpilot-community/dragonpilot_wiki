@@ -30,13 +30,14 @@ Advance-Angle|-|[discord](https://discordapp.com/channels/469524606043160576/538
 Chffr|-|-|一个可以把手机当做行车记录仪的应用程序，2019年年中下架了。
 Chffrplus|-|[guide](https://community.comma.ai/Running_ChffrPlus_on_the_EON)|安装在 [EON DevKit](#EON) 上的程序，可以当做行车记录仪使用。
 Comma.ai|-|[website](http://comma.ai)|Openpilot 背后的公司
-Comma Connect|-|-|A mobile app for [Android](https://play.google.com/store/apps/details?id=ai.comma.connect&hl=en_US) and [iOS](https://apps.apple.com/us/app/comma-connect/id1456551889)|
+Comma Connect|-|-|A mobile app for [Android](https://play.google.com/store/apps/details?id=ai.comma.connect&hl=en_US) and [iOS](https://apps.apple.com/us/app/comma-connect/id1456551889)
 Comma Pedal|-|[维基百科](https://community.comma.ai/Comma_Pedal)|一个可以使不支持 stop & go 功能的汽车支持全速域 ACC 功能的油门控制硬件，官方没有提供硬件销售和支持，但是可以在 OpenPilot 中使用。
 Comma API|-|[docs](https://api.comma.ai/#comma-api-spec)|
 Comma Points|-|[维基百科](https://community.comma.ai/FAQ#commapoints)|在官方平台上行使用并上传了行车记录，可以获得的积分奖励。
 Comma Power|-|[buy](https://comma.ai/shop/products/power)|使用汽车的 OBD-II 接口为 Giraffe 供电
 Comma Prime|Prime|[buy](https://comma.ai/shop/products/comma-prime-sim-card)|官方的会员服务，一些额外的权益（比如永久行车记录的的存储）。
 Driver Support Unit|DSU|-|丰田汽车上实现 巡航系统 和 紧急刹车制动 的嵌入式系统.
+Smart DSU|sdsu||针对丰田低于40km/h时速ACC退出而且有DSU的车辆，使用该设备可以实现全速域控车
 动态雷达巡航控制系统|DRCC|-|使用前摄像头和前保险杠出的前雷达检测前车距离，保持驾驶员设定的安全距离，实现自适应巡航的系统。
 电子控制单元|ECU|[维基百科](https://en.wikipedia.org/wiki/Electronic_control_unit)<br>[百度百科](https://baike.baidu.com/item/ECU)|汽车电子设备中的任何嵌入式系统，用于控制车辆中的一个或多个电气系统或子系统。
 电子助力转向|EPS, EPAS|[维基百科](https://en.wikipedia.org/wiki/Power_steering#Electric_systems)<br>[百度百科](https://baike.baidu.com/item/EPS)|传感器可以检测到转向角度和扭矩，通过一个连接到转向柱上的电机，系统可以控制电机提供转向扭矩，辅助驾驶员转向。
@@ -59,7 +60,7 @@ ping pong|ping ponging|-|想要保持在车道中间，但是车辆一会靠近�
 汽车防撞系统|PCS|[维基百科](https://zh.wikipedia.org/zh-cn/%E6%B1%BD%E8%BB%8A%E9%98%B2%E6%92%9E%E7%B3%BB%E7%B5%B1)|汽车防撞系统是一种利用通讯、控制与资讯科技侦测车辆周遭的动态状况，以辅助汽车驾驶人的安全科技。依各家车厂不同的命名，另有预防碰撞系统、前方碰撞预警系统、减少碰撞系统等异称。
 Stop-and-Go|SnG|-|车辆在拥堵路况下，刹车停下来，然后再往前形式一段后停下来，这种情况叫做SnG，通常说拥堵路况下的驾驶模式
 Snapdragon Neural Processing Engine|SNPE|[dev info](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk)|美国高通公司出品的神经网络处理引擎，可运行于搭载了高通Zeroth机器智能平台的820芯片处理器，开发者可以在SNPE上搭建自己的深度学习网络模型
-STL 文件|[百度百科](https://baike.baidu.com/item/STL/7899225)|3D模型文件，通常指用于3D打印的3D模型文件，比如 FrEON 中的框架、底座。
+STL 文件|[百度百科](https://baike.baidu.com/item/STL/7899225)|3D模型文件，通常指用于3D打印的3D模型文件，比如 FrEON 中的框架、底座。|
 TensorFlow|TF|[维基百科](https://en.wikipedia.org/wiki/TensorFlow)<br>[百度百科](https://baike.baidu.com/item/TensorFlow)|开源及机器学习引擎
 丰田 Safety Sense 2|TSS-2|[info](https://www.toyota.com/content/ebrochure/CFA_TSS_2.pdf)|TSS 2.0建立在以前的TSS-C和TSS-P套件的基础上,并由六个主动安全和驾驶员辅助系统组成：PCS，DRCC，LDA，AHB，RSA和LTA。
 丰田 Safety Sense C|TSS-C|[info](https://www.toyota.com/content/ebrochure/CFA_TSS_C.pdf)|一种用于紧凑型车辆的高级主动安全套件，由主动安全和驾驶员辅助系统组成：PCS，DRCC，LDA和AHB。

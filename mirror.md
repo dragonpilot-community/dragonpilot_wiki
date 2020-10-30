@@ -9,11 +9,12 @@
 -|-
 github| github.com
 cnpmjs| github.com.cnpmjs.org
+fastgit| hub.fastgit.org
 
-当你需要下载 官方版本时，只需要把  `https://github.com/commaai/openpilot`替换成  `https://github.com.cnpmjs.org/commaai/openpilot` 即可，其他分支相同。
+当你需要下载 官方版本时，只需要把  `https://github.com/commaai/openpilot`替换成  `https://github.com.cnpmjs.org/commaai/openpilot` 或者 `https://hub.fastgit.org/commaai/openpilot` 即可，其他分支相同。
 
 
-### 地址列表
+### cnpmjs地址列表
 
 分支版本|git 地址
 -|-
@@ -25,4 +26,16 @@ kegman|https://github.com.cnpmjs.org/kegman/openpilot
 arne182|https://github.com.cnpmjs.org/arne182/ArnePilot
 raspberry-pilot|https://github.com.cnpmjs.org/gernby/raspberry-pilot
 
+
+### fastgit地址列表
+
+分支版本|git 地址
+-|-
+官方版本|https://hub.fastgit.org/commaai/openpilot
+官方中文版|https://hub.fastgit.org/rming/openpilot
+dragonpilot|https://hub.fastgit.org/dragonpilot-community/dragonpilot
+Gernby|https://hub.fastgit.org/gernby/openpilot
+kegman|https://hub.fastgit.org/kegman/openpilot
+arne182|https://hub.fastgit.org/arne182/ArnePilot
+raspberry-pilot|https://hub.fastgit.org/gernby/raspberry-pilot
 
