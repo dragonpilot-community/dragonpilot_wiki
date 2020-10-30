@@ -29,11 +29,17 @@ eon进入twrp
 使用方法：
 
 解压一键升级NEOS15修改版放在桌面
+
 将第一步下载的system升级包解压得到boot.img system.img 
+
 把recovery升级包改名称为recovery.img
+
 然后用把它们三个放到的解压得到的一键升级NEOS15修改版目录中
+
 运行一键NOES仅刷新引导和系统文件.bat
+
 或者
+
 运行一键NOES全刷会清除用户文件和缓存版本.bat
 
 
