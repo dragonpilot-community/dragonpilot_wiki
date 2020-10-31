@@ -54,3 +54,16 @@ eon进入twrp
 
 
 
+### 4.使用TRWP备份恢复
+
+下载下面链接
+
+https://cloud.189.cn/t/nE3UVjjuQnQz DP0710中文版 
+
+按照
+
+[使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)
+
+进行恢复即可
+
+
