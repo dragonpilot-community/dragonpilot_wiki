@@ -11,44 +11,15 @@
 
 ### 支持的 fork
 
-fork|github|Software Url
--|-|-
-commaai|https://github.com/commaai/openpilot| d.sdut.me/op/{分支}
-afa|https://github.com/rming/openpilot| d.sdut.me/afa/{分支}
-dragonpilot|<a style="white-space: nowrap;" href="https://github.com/dragonpilot-community/dragonpilot">https://github.com/dragonpilot-community/dragonpilot</a>|d.sdut.me/dp/{分支}
-kegman|https://github.com/kegman/openpilot|d.sdut.me/kegman/{分支}
-gernby|https://github.com/gernby/openpilot|d.sdut.me/gernby/{分支}
-arne|https://github.com/arne182/openpilot|d.sdut.me/arne/{分支}
+installer使用镜像为 https://hub.fastgit.org/dragonpilot-community/dragonpilot 内镜像
 
+#####尽量使用电信wifi情况下用界面UI安装，已知北方移动宽带，联通宽带容易出现下载失败
 
-**备注：** `fork` 又叫做 `分叉`, `branch` 又叫做 `分支`
+界面UI现在仅有以下两个分支dp的两个分支，如果研究过官方installer代码，有自己编译installer的能力，可以生成后联系我们添加对应网址
 
-所以，一个 fork 的安装地址就变成了如下的格式：
+【devel-i18n分支】http://dpp.cool/cn/devel-i18n
+【testing分支】http://dpp.cool/cn/testing
 
-```bash
-# d.sdut.me/{FORK}/{BRANCH}
-d.sdut.me/{分叉}/{分支}
-```
-
-
-以 kegman 项目举例，如果我们想安装 `kegman-0.7.3` 分支，那么我们在 Software Url 界面应该填入的地址就是：
-
-```bash
-d.sdut.me/kegman/kegman-0.7.3
-```
-
-以 dragonpilot 项目举例，如果我们想安装 `devel-i18n` 分支，那么我们在 Software Url 界面应该填入的地址就是：
-
-```bash
-d.sdut.me/dp/devel-i18n
-```
-备注：这里的 `dp` 是 `dragonpilot` 的简写，当然，你也可以写 `d.sdut.me/dragonpilot/devel-zhs`
-
-安装官方版本就变成了：
-
-```bash
-d.sdut.me/op/release2
-```
 ### 使用方法
 
 如果你是在安装 NEOS 系统后第一次进入 openpilot，那么可以直接输入上述地址即可。
