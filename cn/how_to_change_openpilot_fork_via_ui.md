@@ -25,11 +25,31 @@ installer使用镜像为 https://hub.fastgit.org/dragonpilot-community/dragonpil
 【testing分支】http://dpp.cool/cn/testing
 
 
-### 使用方法
 
-如果你是在安装 NEOS 系统后第一次进入 openpilot，那么可以直接输入上述地址即可。
+### SHH安装方法
 
-NEOS 系统安装参考：
+如果使用界面安装多次失败，主要是手机热点或者移动宽带，联通宽带失败情况下，请尝试用ssh代码安装
+
+
+ssh使用配置参考
+- [使用 Putty SSH 切换 openpilot 分支版本](/cn/how_to_change_openpilot_fork_on_windows.md )
+
+
+安装devel-i18n分支
+
+```bash
+cd /data/ && git clone https://gitee.com/afaaa/dragonpilot openpilot -b devel-i18n --depth=1 && cd /data/openpilot && git remote set-url origin https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot && cd scripts && ./complete_setup.sh
+```
+
+安装testing分支
+```bash
+cd /data/ && git clone https://gitee.com/afaaa/dragonpilot openpilot -b testing --depth=1 && cd /data/openpilot && git remote set-url origin https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot && cd scripts && ./complete_setup.sh
+```
+
+
+
+
+###  NEOS 系统安装参考：
 
 - [Windows 下手动分布安装 openpilot 教程](/cn/how_to_flash_openpilot_on_windows_step_by_step.md)
 - [Windows 下一键安装 openpilot 教程](/cn/how_to_flash_openpilot_on_windows.md)
@@ -42,18 +62,12 @@ NEOS 系统安装参考：
 <center>
 <img src="/files/uninstall1.jpg" class="max-h-300">
 <img src="/files/uninstall2.jpg" class="max-h-300">
-<img src="/files/uninstall3.jpg" class="max-h-300">
+<img src="/files/uninstall4.jpg" class="max-h-300">
 </center>
 
 
 
-### 安装脚本更新
-
-上述 fork 还在不断更新，程序会每半小时抓取一次 git 项目里的 **新增分支**，然后生成对应的安装脚本，并上传到服务器。
-
-如果你发现安装地址有任何问题，或者有什么建议需要反馈，请 [联系我们](/about.md)。
-
-### 相关源码
+### 相关源码（自动生成installer有兴趣的请自行研究）
 
 - [https://d.sdut.me/installers](https://d.sdut.me/installers/)
 - [https://github.com/rming/openpilot/tree/installer](https://github.com/Rming/openpilot/blob/installer/installer/make_installer.py)
