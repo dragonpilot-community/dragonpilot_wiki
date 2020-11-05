@@ -18,8 +18,8 @@
 
 ### 下载 Putty 和 ppk（私钥）
 
-1. 下载软件 putty （ 下载地址：http://d.sdut.me/putty ）
-2. 下载私钥 ppk （ 下载地址：http://d.sdut.me/eonkeys/eon.ppk ）
+1. 下载软件 putty （ 自行搜索下载 ）
+2. 下载私钥 ppk （ 天翼云链接 https://cloud.189.cn/t/2yMveyqAzmqi ）
 
 ### 填写信息，SSH 连接到 EON
 
