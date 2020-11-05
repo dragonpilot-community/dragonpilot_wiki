@@ -24,6 +24,7 @@
 - [Windows 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_windows_step_by_step.md)
 - [macOS 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_mac.md)
 - [NEOS 降级指南](cn/how_to_downgrade_neos.md)
+- [手动升级NEOS15](cn/updateNEOS15.md)
 - [Panda 固件更新教程](cn/how_to_flash_panda.md)
 - [抓取车辆指纹1.0](cn/Creating_Fingerprints.md)
 - [抓取车辆指纹2.0](cn/fingerprints2.md)
