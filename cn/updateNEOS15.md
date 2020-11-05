@@ -62,7 +62,9 @@ eon进入twrp
 
 下载下面链接
 
-https://cloud.189.cn/t/nE3UVjjuQnQz DP0710中文版 
+##### DP0710中文版，如果twrp恢复出现错误，请在twrp内格式化之后，用第一步的官方system升级包内镜像重新刷机
+
+https://cloud.189.cn/t/QvQZnmBf2y6b 
 
 按照
 
