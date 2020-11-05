@@ -11,14 +11,17 @@
 
 ### 支持的 fork
 
+
 installer使用镜像为 https://hub.fastgit.org/dragonpilot-community/dragonpilot 内镜像
 
-#####尽量使用电信wifi情况下用界面UI安装，已知北方移动宽带，联通宽带容易出现下载失败
+##### 尽量使用电信wifi情况下用界面UI安装，已知北方移动宽带，联通宽带容易出现下载失败
 
 界面UI现在仅有以下两个分支dp的两个分支，如果研究过官方installer代码，有自己编译installer的能力，可以生成后联系我们添加对应网址
 
 【devel-i18n分支】http://dpp.cool/cn/devel-i18n
+
 【testing分支】http://dpp.cool/cn/testing
+
 
 ### 使用方法
 
