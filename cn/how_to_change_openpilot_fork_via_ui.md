@@ -18,6 +18,8 @@ installer使用镜像为 https://hub.fastgit.org/dragonpilot-community/dragonpil
 
 界面UI现在仅有以下两个分支dp的两个分支，如果研究过官方installer代码，有自己编译installer的能力，可以生成后联系我们添加对应网址
 
+##### http开头，http开头，http开头，请注意
+
 【devel-i18n分支】http://dpp.cool/cn/devel-i18n
 
 【testing分支】http://dpp.cool/cn/testing
