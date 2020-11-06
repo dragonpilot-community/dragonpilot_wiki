@@ -2,7 +2,6 @@
 
 收集 Openpilot 使用、开发过程中常用的资料软件到这里，方便汇总下载。
 
-软件资料存储在国外服务器，通过 Cloudflare 免费的 CDN 加速，所以你可以尽情的使用迅雷、IDM、aria2 下载。
 
 Openpilot相关使用软件：（豆友提供）
  
@@ -27,18 +26,39 @@ Openpilot相关使用软件：（豆友提供）
   7.乐视Pro3 (乐视X720 X722 X728 )救砖包.rar
   
   
+  ### Putty （SSH 工具）
+  
+  天翼云链接 https://cloud.189.cn/t/fmEBreUFbaMn
+  
+  ### Winscp （Windows 下通过 SSH 传输文件工具）
+  
+  天翼云链接 https://cloud.189.cn/t/IjAvyq6ZbQ3m
+  
   ### Openpilot SSH 私钥-ppk类型
   
   天翼云链接 https://cloud.189.cn/t/2yMveyqAzmqi
+  
+  ### 一加3T救砖工具+降级包（6.0.1）
+ 
+  天翼云链接 https://cloud.189.cn/t/3yAfamryYbyi
+  
+  ### 一加全机型万能工具箱v3.7.5
+  
+  天翼云链接 https://cloud.189.cn/t/nYRVJzIjY3ei
+
+  ### 一键刷noes工具（不包含boot和system镜像，请自行下载），修改来源于@afa版本
+  
+  天翼云链接 https://cloud.189.cn/t/uyY7viRfMrya
+  
+  ### 官方NEOS15-1（2020.10.29版本）下载地址
+
+[点击下载NEOS15地址，解压可以获得boot和system镜像](https://commadist.azureedge.net/neosupdate/ota-signed-e85f507777cb6b22f88ba1c8be6bbaa2630c484b971344b645fca2d1c461cd47.zip) 
 
 
   ### 以下工具欢迎提供链接用于更新
-- 
-- [Putty （SSH 工具）]
+
 - [TWRP（Android 开源第三方 Recovery）]
-- [Winscp （Windows 下通过 SSH 传输文件工具）]
 - [Workbench (为 Openpilot 定制的管理工具)]
 - [一加3T救砖工具]
 - [一加3T降级包(Android7.1)]
-- [一加万能工具包_V5.3]
-- [一加手机3T工具箱V2.0.0]
+
