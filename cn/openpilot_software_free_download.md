@@ -46,9 +46,15 @@ Openpilot相关使用软件：（豆友提供）
   
   天翼云链接 https://cloud.189.cn/t/nYRVJzIjY3ei
 
-  ### 一键刷noes工具（不包含boot和system镜像，请自行下载），修改来源于@afa版本
+  ### 一键刷noes工具（不包含boot和system镜像，请自行下载，内含说明），修改来源于@afa版本
   
-  天翼云链接 https://cloud.189.cn/t/uyY7viRfMrya
+  天翼云链接 https://cloud.189.cn/t/67FN3yz6N7bu
+  
+  ### NEOS镜像
+  
+  neos14 链接 https://cloud.189.cn/t/NfqyiiEvI7ju
+  neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
+  
   
   ### 官方NEOS15-1（2020.10.29版本）下载地址
 
