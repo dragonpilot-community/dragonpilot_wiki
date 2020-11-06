@@ -45,7 +45,7 @@
   0.7.10以后用 neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
   
 
-###### 2. 运行脚本 `flash.bat`，按照脚本提示进行操作
+##### 2. 运行脚本 `flash.bat`，按照脚本提示进行操作
 
 
 参考视频：[Windows 下一键安装 openpilot 全纪录](https://www.bilibili.com/video/av76232185/)
