@@ -29,7 +29,9 @@
 
 ### 下载运行一键安装脚本
 
-1. 下载 Windows 一键安装包（v12）和 NEOS 镜像，按照链接内说明文档把镜像解压后放到工具的img文件夹
+
+##### 1. 下载 Windows 一键安装包（v12）和 NEOS 镜像，按照链接内说明文档把镜像解压后放到工具的img文件夹
+
 
   修改来源于@afa版本，优先推荐使用，会预装电脑内adb工具和手机驱动，避免因为没有安装adb工具环境连不上手机情况
   一键安装驱动+neos+twrp
@@ -43,7 +45,8 @@
   0.7.10以后用 neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
   
 
-2. 运行脚本 `flash.bat`，按照脚本提示进行操作
+###### 2. 运行脚本 `flash.bat`，按照脚本提示进行操作
+
 
 参考视频：[Windows 下一键安装 openpilot 全纪录](https://www.bilibili.com/video/av76232185/)
 
