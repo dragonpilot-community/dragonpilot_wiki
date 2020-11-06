@@ -6,7 +6,7 @@
 Openpilot相关使用软件：（豆友提供）
 
 
-  ### 一键刷noes工具（不包含boot和system镜像，请自行下载，内含说明）
+  ### 一键刷noes工具，包含twrp刷入（不包含boot和system镜像，请自行下载，内含说明）
   修改来源于@afa版本，优先推荐使用，会预装电脑内adb工具和手机驱动，避免因为没有安装adb工具环境连不上手机情况
   一键安装驱动+neos+twrp
   
@@ -49,7 +49,7 @@ Openpilot相关使用软件：（豆友提供）
   
   天翼云链接 https://cloud.189.cn/t/IjAvyq6ZbQ3m
   
-  ### Openpilot SSH 私钥-ppk类型
+  ### Openpilot SSH 私钥-ppk类型，putty和winscp使用
   
   天翼云链接 https://cloud.189.cn/t/2yMveyqAzmqi
   
@@ -70,7 +70,6 @@ Openpilot相关使用软件：（豆友提供）
   ### 以下工具欢迎提供链接用于更新
 
 - [TWRP（Android 开源第三方 Recovery）]
-- [Workbench (为 Openpilot 定制的管理工具)]
 - [一加3T救砖工具]
 - [一加3T降级包(Android7.1)]
 
