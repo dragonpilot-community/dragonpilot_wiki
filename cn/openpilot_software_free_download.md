@@ -4,6 +4,20 @@
 
 
 Openpilot相关使用软件：（豆友提供）
+
+
+  ### 一键刷noes工具（不包含boot和system镜像，请自行下载，内含说明）
+  ### 修改来源于@afa版本，优先推荐使用，会预装电脑内adb工具和手机驱动，避免因为没有安装adb工具环境连不上手机情况
+  
+  天翼云链接 https://cloud.189.cn/t/67FN3yz6N7bu
+  
+  ### NEOS镜像
+  
+  neos14 链接 https://cloud.189.cn/t/NfqyiiEvI7ju
+  
+  neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
+  
+  
  
   ### openpilot工具合集（感谢@easyeiji提供）
   
@@ -46,16 +60,6 @@ Openpilot相关使用软件：（豆友提供）
   
   天翼云链接 https://cloud.189.cn/t/nYRVJzIjY3ei
 
-  ### 一键刷noes工具（不包含boot和system镜像，请自行下载，内含说明），修改来源于@afa版本
-  
-  天翼云链接 https://cloud.189.cn/t/67FN3yz6N7bu
-  
-  ### NEOS镜像
-  
-  neos14 链接 https://cloud.189.cn/t/NfqyiiEvI7ju
-  
-  neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
-  
   
   ### 官方NEOS15-1（2020.10.29版本）下载地址
 
