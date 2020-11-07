@@ -10,7 +10,7 @@ Openpilot相关使用软件：（豆友提供）
   修改来源于@afa版本，优先推荐使用，会预装电脑内adb工具和手机驱动，避免因为没有安装adb工具环境连不上手机情况
   一键安装驱动+neos+twrp
   
-  天翼云链接 https://cloud.189.cn/t/67FN3yz6N7bu
+  天翼云链接 https://cloud.189.cn/t/vmYZF3V3UBFb
   
   ### NEOS镜像
   
