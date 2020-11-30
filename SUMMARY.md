@@ -11,6 +11,7 @@
 * [快速入门](README.md)
 * [常用软件资料下载](cn/openpilot_software_free_download.md)
 * [手动升级NEOS15](cn/updateNEOS15.md)
+* [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
 * [Openpilot 硬件购买篇](cn/how_to_buy_openpilot.md)
 * [使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)
 * [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
