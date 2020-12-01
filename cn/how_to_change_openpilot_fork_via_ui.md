@@ -9,6 +9,12 @@
 由于国内网络访问 github 的速度不佳，我制作了这个存储在 gitee 上的 [openpilot 代码镜像项目](/mirror.md)，当你通过这种方式安装 openpilot 的时候，程序会根据你的网络自动选择代码的下载地址（github 或者 gitee），从而解决了安装速度慢的问题。
 
 
+##### http开头，http开头，http开头，请注意
+
+【devel-i18n分支】http://dpp.cool/cn/devel-i18n
+
+【testing分支】http://dpp.cool/cn/testing
+
 ### 支持的 fork
 
 
@@ -18,11 +24,7 @@ installer使用镜像为 https://hub.fastgit.org/dragonpilot-community/dragonpil
 
 界面UI现在仅有以下两个分支dp的两个分支，如果研究过官方installer代码，有自己编译installer的能力，可以生成后联系我们添加对应网址
 
-##### http开头，http开头，http开头，请注意
 
-【devel-i18n分支】http://dpp.cool/cn/devel-i18n
-
-【testing分支】http://dpp.cool/cn/testing
 
 
 
