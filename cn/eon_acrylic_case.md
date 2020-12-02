@@ -88,7 +88,7 @@ PC胶水|<img src="/files/case_xiaoshitou_65.jpg" class="max-h-100">|[PC胶水](
 
 材料名称|图片|参考链接
 -|-|-
-亚克力边框 2 条<br>加厚外壳边框|<img src="/files/case_xiaoshitou_69.jpg" class="max-h-100">|[亚克力板设计文件下载](https://d.sdut.me/case/xiaoshitou/eon_acrylic_case.dwg)<br>已包含在设计文件中
+亚克力边框 2 条<br>加厚外壳边框|<img src="/files/case_xiaoshitou_69.jpg" class="max-h-100">|[亚克力板设计文件下载（两版本）](https://cloud.189.cn/t/M3e2myj6NB3y)<br>已包含在设计文件中
 140\*26\*2mm 均热板 2 条|<img src="/files/case_xiaoshitou_68.jpg" class="max-h-100">|[26宽度铝均热板](https://item.taobao.com/item.htm?id=525616626886)
 导热硅脂（可选）|<img src="/files/case_xiaoshitou_70.jpg" class="max-h-100">|[导热硅脂](https://detail.tmall.com/item.htm?id=520434708489&skuId=3860561336037)
 
