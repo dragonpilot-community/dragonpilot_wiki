@@ -60,6 +60,10 @@ Openpilot相关使用软件：（豆友提供）
   ### 一加全机型万能工具箱v3.7.5
   
   天翼云链接 https://cloud.189.cn/t/nYRVJzIjY3ei
+  
+  ### 酷派S1（c105-6）刷乐视pro3相关工具
+  
+  天翼云链接 https://cloud.189.cn/t/QZnEZfNBNN3a
 
   
   ### 官方NEOS15-1（2020.10.29版本）下载地址
