@@ -18,11 +18,7 @@
 主机 / Host| `192.168.43.1`|EON 的IP，这里默认是 `192.168.43.1`
 端口 / Port| `8022`|SSH 端口号，这里默认是 `8022`
 用户名 / Username| `root`|默认 `root`
-私钥 / Private Key| -----BEGIN RSA PRIVATE KEY-----
-MIIEogIBAAK....
-....GR8BnwhRYzu+k=
------END RSA PRIVATE KEY-----
- |下载地址：https://cloud.189.cn/t/2yMveyqAzmqi/<br>pem 为私钥文件格式，<br>txt 内容可以在网页里打开复制<br>ppk 格式为客户端 putty 专用
+私钥 / Private Key| -----BEGIN PRIVATE KEY-----<br>MIIEvAIBA ....<br>....<br>-----END PRIVATE KEY----- |下载地址：https://cloud.189.cn/t/2yMveyqAzmqi/<br>pem 为私钥文件格式，<br>txt 内容可以在网页里打开复制<br>ppk 格式为客户端 putty 专用
 
 
 <center>
