@@ -53,7 +53,7 @@ openpilot 有很多分支，[Openpilot 国内镜像](/mirror.md) 这里有一些
 cd /data
 
 # 备份原有的 openpilot
-mv openpilot openpilot.bak
+mv openpilot openpilot.bak    #修改op目录名称，此处如果发生断电或者重启，系统无法正常加载（修改前请务必记住，当前的EON的ip地址，否则无法重新连接，继续后面的步骤）
 
 # 下载新的版本分支
 git clone https://gitee.com/afaaa/kegman openpilot
