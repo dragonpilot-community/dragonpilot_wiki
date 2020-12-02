@@ -8,6 +8,7 @@
 * [常用命令](cn/commands.md)
 * [更新记录[中文翻译]](cn/openpilot_releases.md)
 * [更新记录[英文原版]](cn/openpilot_releases_en.md)
+* [DP更新记录[按照时间顺序]](cn/CHANGELOGS.md)
 * [快速入门](README.md)
 * [常用软件资料下载](cn/openpilot_software_free_download.md)
 * [手动升级NEOS15](cn/updateNEOS15.md)
