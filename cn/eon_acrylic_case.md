@@ -25,7 +25,7 @@
 <img src="/files/case_xiaoshitou_11.jpg" class="max-h-200">&emsp;<img src="/files/case_xiaoshitou_41.jpg" class="max-h-200">
 </p>
 
-- [亚克力板设计文件下载](https://d.sdut.me/case/xiaoshitou/eon_acrylic_case.dwg)
+- [亚克力板设计文件下载（两版本）](https://cloud.189.cn/t/M3e2myj6NB3y)
 
 亚克力外壳主体主要包括三部分，分别是散热风扇，散热片、亚克力外壳板材和装配所需要的螺丝螺母。
 
@@ -36,7 +36,7 @@
 散热片|<img src="/files/case_xiaoshitou_67.jpg" class="max-h-100">| [尺寸设计文件下载](https://d.sdut.me/case/xiaoshitou/sanreban.png) <br>需要按照尺寸定制切割
 2mm 厚 EVA 单面胶垫若干|<img src="/files/case_xiaoshitou_45.jpg" class="max-h-100">| [胶垫eva泡棉单面胶胶带](https://item.taobao.com/item.htm?id=550820310905)<br>垫在散热片下面，压紧散热片、防止损坏外壳
 双 90 度弯头 TypeC 充电线一根|<img src="/files/case_xiaoshitou_46.jpg" class="max-h-100">|[绿联type-c数据线双弯头](https://detail.tmall.com/item.htm?id=563863764427&skuId=4088026243561)
-亚克力板材若干|<img src="/files/case_xiaoshitou_44.jpg" class="max-h-100">|[亚克力板设计文件下载](https://d.sdut.me/case/xiaoshitou/eon_acrylic_case.dwg)<br>需要按照设计文件定制加工
+亚克力板材若干|<img src="/files/case_xiaoshitou_44.jpg" class="max-h-100">|[亚克力板设计文件下载（两版本）](https://cloud.189.cn/t/M3e2myj6NB3y)<br>需要按照设计文件定制加工
 M3\*20盘头螺丝 5 颗 |<img src="/files/case_xiaoshitou_59.jpg" class="max-h-100">|[M3\*20盘头螺丝](https://item.taobao.com/item.htm?id=18065983332)
 M3 拉铆螺母 5 颗 |<img src="/files/case_xiaoshitou_60.jpg" class="max-h-100">|[M3 拉铆螺母](https://item.taobao.com/item.htm?id=8996643930)
 
@@ -72,7 +72,7 @@ M3 螺母、垫片 8 套 |<img src="/files/case_xiaoshitou_74.jpg" class="max-h-
 2\*5.5 弹性触点 8 粒|<img src="/files/case_xiaoshitou_63.jpg" class="max-h-100">|[2\*5.5 弹性触点](https://item.taobao.com/item.htm?id=600342336174)
 10\*5 中间锥孔磁钢 8 颗，锥孔面 N S 成对|<img src="/files/case_xiaoshitou_54.png" class="max-h-100">|[磁铁圆形带孔强磁10\*5](https://item.taobao.com/item.htm?id=561838811288)
 定制磁吸 pcb 板两块|<img src="/files/case_xiaoshitou_62.jpg" class="max-h-100">|[PCB 文件下载](https://d.sdut.me/case/xiaoshitou/CAM_for_neov2.rar)<br>1.6mm 厚双面绿油无铅玻纤板<br>pcb打样50起不包邮，能得到10片左右<br>pcb焊了弹簧针的是上座，不焊弹簧针的就是下座
-亚克力板材若干|<img src="/files/case_xiaoshitou_66.jpg" class="max-h-100">|[亚克力板设计文件下载](https://d.sdut.me/case/xiaoshitou/eon_acrylic_case.dwg)<br>已包含在设计文件中
+亚克力板材若干|<img src="/files/case_xiaoshitou_66.jpg" class="max-h-100">|[亚克力板设计文件下载（两版本）](https://cloud.189.cn/t/M3e2myj6NB3y)<br>已包含在设计文件中
 PC胶水|<img src="/files/case_xiaoshitou_65.jpg" class="max-h-100">|[PC胶水](https://detail.tmall.com/item.htm?id=583601617340)<br>用于快拆底座组件的粘合固定
 
 
