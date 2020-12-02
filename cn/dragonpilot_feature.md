@@ -1,4 +1,4 @@
-## Dragonpilot特性
+## Dragonpilot特性【基于2020-11-28 (0.7.10.0)】
 
 
 ### 丰田设定任意速度巡航(低于原车设定值)
@@ -7,14 +7,20 @@
 
 ###### 打开这个功能需要SSH到终端进行：
 
+###### 开启低速重写
 ```shell
-#开启低速重写
 echo -n 1 > /data/params/d/dp_toyota_lowest_cruise_override
-#在上述条件下，开启使用当前速度做巡航速度
+```
+###### 在上述条件下，开启使用当前速度做巡航速度
+```shell
 echo -n 1 > /data/params/d/dp_toyota_lowest_cruise_override_vego
-#设定触发条件速度(以OP上看到的速度为准，可以稍微大0.x避免判断不准确)，低于该速度可以使用这个特性
+```
+######  设定触发条件速度(以OP上看到的速度为准，可以稍微大0.x避免判断不准确)，低于该速度可以使用这个特性
+```shell
 echo -n 41.2 > /data/params/d/dp_toyota_lowest_cruise_override_at
-#设定最低巡航速度 7km/h
+```
+###### 设定最低巡航速度 7km/h
+```shell
 echo -n 7 > /data/params/d/dp_toyota_lowest_cruise_override_speed
 ```
 
@@ -27,9 +33,9 @@ echo -n 0 > /data/params/d/dp_toyota_lowest_cruise_override_vego
 ###### 彻底关闭低速巡航
 
 ```shell
-#关闭低速重写(系统默认)
 echo -n 0 > /data/params/d/dp_toyota_lowest_cruise_override
 ```
+
 
 
 ### dynamic gas
@@ -41,13 +47,79 @@ echo -n 0 > /data/params/d/dp_toyota_lowest_cruise_override
 
 ###### 打开这个功能需要SSH到终端进行：
 
+
+###### 第一步 开启dynamic gas
 ```shell
-#第一步 开启dynamic gas
 echo -n 1 > /data/params/d/dp_dynamic_gas
-#第二步 也可以在dp的“操控设置”中, “加速模式”选择：节能、普通、运动。注意选择“关闭”DynamicGas也会不起作用
+```
+###### 第二步 也可以在dp的“操控设置”中, “加速模式”选择：节能、普通、运动。注意选择“关闭”DynamicGas也会不起作用
+```shell
 echo -n 1 > /data/params/d/dp_accel_profile
-#第三步 (可选)也可以在dp的“操控设置”中，跟车距离设置为“长距离”在高速上体验会更换
+```
+###### 第三步 (可选)也可以在dp的“操控设置”中，跟车距离设置为“长距离”在高速上体验会更换
+```shell
 echo -n 3 > /data/params/d/dp_dynamic_follow
 ```
 
 在行驶过程中，可以 通过dp界面按钮调整“加速模式”， 也可以调整DynamicGas的max_gas数值。目前以汉兰达为例，经济模式比较像人在控制油门；也可以dp界面按钮调整“跟车距离”调整跟车距离，长距离在高速上会比较安全。行车中操作dp界面注意安全，让副驾进行调整！
+
+
+
+
+### honda eps 模式
+
+如果你的本田车，已经进行了eps的限制解除（eps破解），那么可以尝试开启dp内的honda eps模式，在2020-11-18日以后的dp0.7.10版本，可以使用这个
+
+ 大体原理：
+参考了CFranHonda的数值， 设置了/selfdrive/car/honda/interface.py内的dp_honda_eps_mod数值
+启用honda eps模式后会使用调整后的数值，可能会获得更好的转弯效果，具体需要自行测试
+
+###### 打开这个功能需要SSH到终端进行：
+
+###### 开启 honda eps模式
+```shell
+echo -n 1 > /data/params/d/dp_honda_eps_mod
+```
+###### 关闭 honda eps模式
+```shell
+echo -n 0 > /data/params/d/dp_honda_eps_mod
+```
+
+
+
+### scripts文件夹内的小应用
+
+* dp的scripts文件夹内有一些常用的sh程序，使用ssh到终端运行，可以处理一些简单问题
+
+###### 用途说明
+
+* complete_setup.sh ，没有使用ui界面进行第一次安装openpilot的时候，生成引导文件continue.sh
+######  运行方法
+```shell
+cd /data/openpilot/scripts/ && ./complete_setup.sh
+```
+
+* rebuild.sh ，清除缓存，重新scons文件，某些黑屏情况时候可以尝试重新scons
+######  运行方法
+```shell
+cd /data/openpilot/scripts/ && ./rebuild.sh 
+```
+* reset_dp.sh，重置dp内的选项设定恢复默认状态
+######  运行方法
+```shell
+cd /data/openpilot/scripts/ && ./reset_dp.sh
+```
+
+* reset_update.sh，清除panda固件并重新拉取源更新，重新scons（不清除缓存）
+######  运行方法
+```shell
+cd /data/openpilot/scripts/ && ./reset_update.sh
+```
+
+* update_panda_firmware.sh ，强制更新panda固件，更换版本分支后突然出现不能控车情况下可以考虑强制更新panda固件
+######  运行方法
+```shell
+cd /data/openpilot/scripts/ && ./update_panda_firmware.sh
+```
+
+
