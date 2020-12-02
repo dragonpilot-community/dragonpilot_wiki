@@ -49,7 +49,7 @@ Openpilot相关使用软件：（豆友提供）
   
   天翼云链接 https://cloud.189.cn/t/IjAvyq6ZbQ3m
   
-  ### Openpilot SSH 私钥-ppk类型，putty和winscp使用
+  ### Openpilot SSH 私钥-ppk类型，putty和winscp使用，pem为私钥文件格式
   
   天翼云链接 https://cloud.189.cn/t/2yMveyqAzmqi
   
