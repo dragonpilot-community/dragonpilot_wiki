@@ -1,3 +1,13 @@
+2020-12-02 (0.8.0.0)
+========================
+* 加入 git 錯誤修正。(感謝 @toyboxZ 提供)
+* Added git error fix. (Thanks to @toyboxZ)
+
+2020-12-02 (0.8.0.0)
+========================
+* 基於最新 openpilot 0.8.0 devel.
+* Based on latest openpilot 0.8.0 devel.
+
 2020-11-28 (0.7.10.0)
 ========================
 * 加入來自 afa 的 Honda inspire, accord, crv SnG 優化。(感謝 @menwenliang 提供)
