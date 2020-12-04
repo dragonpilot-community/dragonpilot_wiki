@@ -78,6 +78,8 @@ https://cloud.189.cn/t/QvQZnmBf2y6b
 
 按照
 
+[关于TWRP使用的部分说明](about_twrp.md)
+
 [使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)
 
 进行恢复即可
