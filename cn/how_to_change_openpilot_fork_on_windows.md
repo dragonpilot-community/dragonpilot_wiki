@@ -52,10 +52,10 @@ openpilot 有很多分支，[Openpilot 国内镜像](/mirror.md) 这里有一些
 # 打开 data 目录
 cd /data
 
-# 备份原有的 openpilot
+# 把原来openpilot文件夹重命名为openpilot.bak文件夹
 mv openpilot openpilot.bak    #修改op目录名称，此处如果发生断电或者重启，系统无法正常加载（修改前请务必记住，当前的EON的ip地址，否则无法重新连接，继续后面的步骤）
 
-# 下载新的版本分支
+# 下载新的版本分支并命名为openpilot文件夹（git clone 网址 文件夹名）
 git clone https://gitee.com/afaaa/kegman openpilot
 
 # 打开 openpilot 目录
