@@ -123,3 +123,34 @@ cd /data/openpilot/scripts/ && ./update_panda_firmware.sh
 ```
 
 
+### dp内启用第三方软件方法
+
+
+###### 使用代码方法，需要SSH到终端进行：
+1.下载需要的app,以com.autonavi.amapauto.apk为例
+
+```shell
+cd /data/ && git clone https://github.com/dragonpilot-community/apps.git apps -b com.autonavi.amapauto.apk
+```
+2. 在sdard内新建文件夹  apks 文件夹
+```shell
+cd /sdard/ && mkdir apks
+```
+3. 把下载的apk文件复制到指定文件夹
+```shell
+cd /data/apps/ && cp com.autonavi.amapauto.apk /sdcard/apks/
+```
+
+###### 使用winscp或者其他可视化工具方法：
+
+配置winscp参考这个页面
+
+* [配置putty和winscp](putty_and_winscp.md)
+
+下载文件
+仅包含mixplorer文件管理器和高德车机版4.9版本
+https://cloud.189.cn/t/y2y6jerqIfA3
+
+用winscp把文件传输到/sdcard/apks/文件夹内
+
+
