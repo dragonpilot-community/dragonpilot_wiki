@@ -3,32 +3,42 @@
 op 0.7.10要求升级NEOS版本到neos15
 自动升级根据使用者网速决定，如果自动速度较慢的话，可以使用手动升级方法
 
+出现升级提示的时候，不用点击任何选项，采用下面方法可以手动升级
+
+![1607064638431](../files/updateNEOS15/1607064638431.png)
+
 
 
 ### 1.下载官方升级包
 
 [点击下载system升级包地址](https://commadist.azureedge.net/neosupdate/ota-signed-e85f507777cb6b22f88ba1c8be6bbaa2630c484b971344b645fca2d1c461cd47.zip) 
 
-[点击下载recovery升级包地址](https://commadist.azureedge.net/neosupdate/recovery-db31ffe79dfd60be966fba6d1525a5081a920062b883644dc8f5734bcc6806bb.img) 
+[点击下载recovery升级包地址](https://commadist.azureedge.net/neosupdate/recovery-db31ffe79dfd60be966fba6d1525a5081a920062b883644dc8f5734bcc6806bb.img) （不想更换recovery可以不下载）
 
 
 
 ### 2.使用各种方法进行升级包括不限于以下方法
- 
+
 
 1）使用fastboot语句升级
 
- 
 2）使用twrp，卡刷升级
 
-eon进入twrp
+eon进入twrp，usb链接eon
 
-把第一步下载的zip压缩包和img，传入twrp状态下eon，twrp内选择刷入
+把第一步下载的zip压缩包和img，传入twrp状态下eon，twrp内选择刷入，不想更换recovery就不用刷入recovery
+
+完成后重启即可
+
+![1607064987213](../files/updateNEOS15/1607064987213.png)
+<img src="../files/updateNEOS15/1607064555184.png" alt="1607064555184" style="zoom:80%;" />
+<img src="../files/updateNEOS15/1607064580327.png" alt="1607064580327" style="zoom:80%;" />
+![1607064598916](../files/updateNEOS15/1607064598916.png)
 
 自行选择刷入system升级包或者comma官方推荐的recovery
 
  
- 
+
 ### 3.使用一键升级NEOS15刷机工具升级
 
 [点击下载NEOS15刷机工具](http://wiki.dragonpilot.cn/files/software/一键升级NEOS15修改版.rar)
@@ -67,6 +77,8 @@ eon进入twrp
 https://cloud.189.cn/t/QvQZnmBf2y6b 
 
 按照
+
+[关于TWRP使用的部分说明](about_twrp.md)
 
 [使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)
 

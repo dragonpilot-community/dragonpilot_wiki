@@ -19,7 +19,7 @@ fastgit| hub.fastgit.org
 分支版本|git 地址
 -|-
 官方版本|https://github.com.cnpmjs.org/commaai/openpilot
-官方中文版|https://github.com.cnpmjs.org/rming/openpilot
+afa版|https://github.com.cnpmjs.org/rming/openpilot
 dragonpilot|https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot
 Gernby|https://github.com.cnpmjs.org/gernby/openpilot
 kegman|https://github.com.cnpmjs.org/kegman/openpilot
@@ -32,7 +32,7 @@ raspberry-pilot|https://github.com.cnpmjs.org/gernby/raspberry-pilot
 分支版本|git 地址
 -|-
 官方版本|https://hub.fastgit.org/commaai/openpilot
-官方中文版|https://hub.fastgit.org/rming/openpilot
+afa版|https://hub.fastgit.org/rming/openpilot
 dragonpilot|https://hub.fastgit.org/dragonpilot-community/dragonpilot
 Gernby|https://hub.fastgit.org/gernby/openpilot
 kegman|https://hub.fastgit.org/kegman/openpilot

@@ -14,6 +14,7 @@
 * [手动升级NEOS15](cn/updateNEOS15.md)
 * [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
 * [Openpilot 硬件购买篇](cn/how_to_buy_openpilot.md)
+* [关于TWRP使用的部分说明](cn/about_twrp.md)
 * [使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)
 * [配置putty和winscp](cn/putty_and_winscp.md)
 * [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
