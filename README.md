@@ -11,6 +11,7 @@
 - [常见硬件](cn/hardwares.md)
 - [常见术语](cn/Glossary_of_terminology.md)
 - [常用命令](cn/commands.md)
+- [常见问题处理方法-新手向](cn/settle_normal_problem.md)
 - [更新记录[中文翻译]](cn/openpilot_releases.md)
 - [更新记录[英文原版]](cn/openpilot_releases_en.md)
 - [DP更新记录[按照时间顺序]](cn/CHANGELOGS.md)
