@@ -31,8 +31,7 @@ Found FW versions
 
 将车辆指纹2.0对应values.py 文件车型和硬件位置填入
 
-以CRV混动2019中国版为例
-获得车辆指纹2.0如下
+以CRV混动2019中国版为例，获得车辆指纹2.0如下
 
 Found FW versions
 {
@@ -53,23 +52,9 @@ Found FW versions
 
 在/data/openpilot/selfdrive/car/honda/values.py内
 
-(Ecu.unknown, 0x18da28f1, None): [b'57114-TMB-H030\x00\x00']
+逐个对应增加，每个对应数值为**0x18daxxxx**的，按照规则添加到对应位置
 
-对应的是
-  CAR.CRV_HYBRID: {
-    (Ecu.vsa, 0x18da28f1, None): [
-      b'57114-TPA-G020\x00\x00',
-      b'57114-TPG-A020\x00\x00',
-    ],
-    
-将b'57114-TMB-H030\x00\x00'按照规则添加到对应位置
+![1607255753645](../files/fingerprints2/1607255753645.png)
 
-CAR.CRV_HYBRID: {
-    (Ecu.vsa, 0x18da28f1, None): [
-      b'57114-TPA-G020\x00\x00',
-      b'57114-TPG-A020\x00\x00',
-      b'57114-TMB-H030\x00\x00'，
-    ],
-
-   如需将车辆指纹2.0提交给官方
+如需将车辆指纹2.0提交给官方
    需要参考https://github.com/commaai/openpilot/wiki/Fingerprinting
