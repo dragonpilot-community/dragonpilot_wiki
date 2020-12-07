@@ -36,7 +36,6 @@ PS. 应急车道是不可能走的，如果有交通事故人员伤亡，这就�
 
 George 在10.10凌晨6点（北京时间）公布了 openpilot 新版硬件 harness，我第一时间看了直播录像，觉得新硬件还是不错的，就下单了，到现在大概使用了一周时间，这里简单分享一下我的购买过程、装车效果和使用体验……
 
-
 --------
 
 ## Windows 下一键安装 openpilot 全纪录
@@ -69,7 +68,6 @@ George 在10.10凌晨6点（北京时间）公布了 openpilot 新版硬件 harn
 {% bilibili %}av67112608{% endbilibili %}
 </center>
 
-
 --------
 
 
@@ -91,7 +89,7 @@ George 在10.10凌晨6点（北京时间）公布了 openpilot 新版硬件 harn
 --------
 
 ## openpilot 其实是不怎么依赖车道线的
- 
+
 <center>
 {% bilibili %}av75518625{% endbilibili %}
 </center>
@@ -115,7 +113,6 @@ George 在10.10凌晨6点（北京时间）公布了 openpilot 新版硬件 harn
 <center>
 分支：kegman-0.6.4 &emsp; 车型：本田雅阁2019
 </center>
-
 
 --------
 

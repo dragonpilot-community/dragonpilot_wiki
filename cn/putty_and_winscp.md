@@ -12,6 +12,12 @@ Winscp （Windows 下通过 SSH 传输文件工具）
 Openpilot SSH 私钥-ppk类型，putty和winscp使用，pem为私钥文件格式
 天翼云链接 https://cloud.189.cn/t/2yMveyqAzmqi
 
+从openpilot0.76版本开始默认关闭ssh选项，使用ssh时候请先开启，齿轮（设置）--开发人员--启用ssh
+
+![1607311999951](../files/putty_and_winscp/1607311999951.png)
+
+
+
 
 
 #### 1.获取手机ip地址，dp的话直接会在页面上显示，如下图192.168.31.207
