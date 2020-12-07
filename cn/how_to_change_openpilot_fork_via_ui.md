@@ -36,16 +36,17 @@ installer使用镜像为 https://hub.fastgit.org/dragonpilot-community/dragonpil
 ssh使用配置参考
 - [使用 Putty SSH 切换 openpilot 分支版本](/cn/how_to_change_openpilot_fork_on_windows.md )
 
+以下代码是使用cnpmjs.org镜像网址，如果不成功请更换其中https网址为其他的来使用
 
-安装devel-i18n分支
+使用cnpmjs.org镜像安装devel-i18n分支
 
 ```bash
-cd /data/ && git clone https://gitee.com/afaaa/dragonpilot openpilot -b devel-i18n --depth=1 && cd /data/openpilot && git remote set-url origin https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot && cd scripts && ./complete_setup.sh
+cd /data/ && git clone https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot openpilot -b devel-i18n --depth=1 && cd /data/openpilot/scripts && ./complete_setup.sh
 ```
 
-安装testing分支
+使用cnpmjs.org镜像安装testing分支
 ```bash
-cd /data/ && git clone https://gitee.com/afaaa/dragonpilot openpilot -b testing --depth=1 && cd /data/openpilot && git remote set-url origin https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot && cd scripts && ./complete_setup.sh
+cd /data/ && git clone https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot openpilot -b testing --depth=1 && cd /data/openpilot/scripts && ./complete_setup.sh
 ```
 
 
