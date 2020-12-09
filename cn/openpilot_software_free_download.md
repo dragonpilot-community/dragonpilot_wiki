@@ -14,13 +14,11 @@ Openpilot相关使用软件：（豆友提供）
   
   ### NEOS镜像
   
-  neos14 （有资源的请提供）
-  
   neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
   
   
  
-  ### openpilot工具合集（感谢@easyeiji提供）
+  ### openpilot工具合集包含neos14（感谢@easyeiji提供）
   
   天翼云链接 https://cloud.189.cn/t/nE3UVjjuQnQz 
   
@@ -32,7 +30,7 @@ Openpilot相关使用软件：（豆友提供）
   
   3.id_rsa（Workbench使用的秘钥文件）
   
-  4.一键刷NOES14.rar
+  4.一键刷NOES14.rar（有neos14镜像）
   
   5.一键刷TWRP.rar
   
