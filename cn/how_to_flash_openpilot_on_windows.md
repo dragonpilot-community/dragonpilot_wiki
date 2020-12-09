@@ -40,8 +40,6 @@
   
   NEOS镜像地址，选择其中一个安装即可，
   
-  0.74-0.79用 neos14 链接 https://cloud.189.cn/t/NfqyiiEvI7ju
-  
   0.7.10以后用 neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
   
 
