@@ -1,3 +1,19 @@
+#### TWRP注意事项
+TWRP像Windows下的GHOST程序，可以对EON的分区进行备份。
+TWRP备份出来的镜像一定不要传给其他EON使用，否则可能会导致对方EON的comma账户异常！！！
+
+#### 安装TWRP
+
+如果是一个从来没有安装过NEOS系统的手机，[参考这里](http://wiki.dragonpilot.cn/cn/how_to_flash_openpilot_on_windows_step_by_step.html)安装TWRP
+
+如果手机已经安装NEOS，使用了官方的recovery，想安装TWRP，可以使用以下脚本(请确保网络正常和手机供电正常, 脚本请通过拷贝复制到ssh终端执行)
+
+```bash
+wget http://wiki.dragonpilot.cn/files/software/http_flush_twrp.sh -O /dev/http_flush_twrp.sh && dos2unix /dev/http_flush_twrp.sh && sh /dev/http_flush_twrp.sh
+```
+
+![](../files/about_twrp/http_flush_twrp.png)
+
 ####  关于TWRP使用的部分说明
 
 usb线连接电脑时候
