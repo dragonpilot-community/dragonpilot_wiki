@@ -4,13 +4,28 @@
 
 cd /data/neoupdate ; [ $? -ne 0 ] && echo "进入neoupdate目录异常(create working dir error)." && exit 1
 
-TWRP_URL=http://wiki.dpp.cool/otherFiles/software/twrp-3.3.1-0-leecolepro3.img
-TWRP=/data/neoupdate/twrp-3.3.1-0-leecolepro3.img
-TWRP_SHA256SUM=aedd7935a2afe5e62fa92f36859a3a2993685d487d258bb32ccf668b953c54c3
 
+TWRP_URL=http://wiki.dpp.cool/otherFiles/software/twrp-3.3.1-0-leecolepro3.img
+ONEPLUS3T_TWRP_URL=http://wiki.dpp.cool/otherFiles/software/twrp-3.3.1-0-oneplus3t.img
+TWRP=/data/neoupdate/twrp-3.3.1-0.img
+
+TWRP_SHA256SUM=aedd7935a2afe5e62fa92f36859a3a2993685d487d258bb32ccf668b953c54c3
+ONEPLUS3T_TWRP_SHA256SUM=27d53363d984d27cf1992f1a3475b8abd4fa8c9c9f271239dcdf5a49cc86a6d6
+
+system="letv"
 check_system() {
-  cat /proc/cmdline 2>/dev/null | grep letv >/dev/null 
-  [ $? -ne 0 ] && echo "无法适配该手机,仅支持letv\nOnly support LETV leecole pro3" && exit 1
+  cat /proc/cmdline 2>/dev/null | grep letv >/dev/null
+  if [ $? -ne 0 ];then
+    echo "无法识别到乐视pro3,如果你的手机是一加3T,请输入y/Y确认继续"
+    echo "EON is not LETV leecole pro3,If is oneplus3t, type y/Y to continue"
+    echo -n "input:"
+    read c
+    [ "$c" != "y" -a "$c" != "Y" ] && echo "exit." && exit 1
+    
+    system="oneplus3t"
+    TWRP_URL=$ONEPLUS3T_TWRP_URL
+    TWRP_SHA256SUM=$ONEPLUS3T_TWRP_SHA256SUM
+  fi
   free_size=$(df -k /data|tail -n1|awk '{print $(NF-2)}')
   [ $free_size -le 2839504 ] && echo "/data分区可用空间太小，请先清理\nThere is not enough disk space in the /data partition" && exit 1
 }
@@ -72,9 +87,6 @@ recovery(){
   fi
 
 }
-
-
-
 
 
 check_system
