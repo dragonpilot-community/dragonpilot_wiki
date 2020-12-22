@@ -9,6 +9,7 @@
 - [相关视频](cn/videos.md)
 - [国内镜像](/mirror.md)
 - [常见硬件](cn/hardwares.md)
+- [按照步骤一步一步安装comma two](cn/Getting_started_with_your_comma_two.md)
 - [常见术语](cn/Glossary_of_terminology.md)
 - [常用命令](cn/commands.md)
 - [常见问题处理方法-新手向](cn/settle_normal_problem.md)
