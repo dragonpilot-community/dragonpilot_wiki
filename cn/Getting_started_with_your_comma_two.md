@@ -28,9 +28,9 @@ Comma two(内置 Black panda)|<img src="/files/comma_2_1.jpg" class="max-h-100">
 comma two很容易安装!按照视频指南或使用下面步骤一步一步的完成。
 
 ## 安装视频
-<center>
-{% bilibili %}BV1ff4y1R7Hm{% endbilibili %}
-</center>
+丰田C2安装视频：https://www.bilibili.com/video/BV1ff4y1R7Hm
+Harness在十代雅阁安装视频：https://www.bilibili.com/video/BV1VE411h7Kk
+Harness混动雅阁安装是视频：https://www.bilibili.com/video/BV14K411T7
 
 
 
