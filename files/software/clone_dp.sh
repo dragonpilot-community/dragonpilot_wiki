@@ -115,10 +115,15 @@ update_neos() {
   wget -T 10 $update_url 2>/dev/null -O - |grep ota_url >/dev/null
   [ $? -ne 0 ] && echo "[$(date +'%F %T')] 使用/tmp/openpilot/installer/updater/update.json做更新源" && update_url="file:///tmp/openpilot/installer/updater/update.json"
   
-  ./updater "$update_url"
-  while [ $? -ne 0 ];do
-    echo "[$(date +'%F %T')] 下载NEOS ROM失败,正在重试."
-    ./updater "$update_url"
+  ./updater "$update_url" &
+  while [ true ];do
+    ps -ef|grep -v grep |grep updater >/dev/null
+    if [ $? -ne 0 ];then
+      sleep 3
+      echo "[$(date +'%F %T')] 下载NEOS ROM失败,正在重试."
+      ./updater "$update_url" &
+    fi
+    sleep 1
   done
   
 }
