@@ -109,7 +109,7 @@ update_neos() {
   chmod +x updater
   killall -9 ai.comma.plus.offroad
   
-  update_url="http://wiki.dragonpilot.cn/files/software/neoupdate/update.${REQUIRED_NEOS_VERSION}.json"
+  update_url="http://wiki.dragonpilot.cn/files/software/neosupdate/update.${REQUIRED_NEOS_VERSION}.json"
   #update_url="http://192.168.2.106/neosupdate/update.${REQUIRED_NEOS_VERSION}.json"
   
   wget -T 10 $update_url 2>/dev/null -O - |grep ota_url >/dev/null
