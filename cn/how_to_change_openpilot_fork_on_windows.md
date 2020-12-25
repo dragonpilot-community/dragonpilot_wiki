@@ -56,7 +56,7 @@ cd /data
 mv openpilot openpilot.bak    #修改op目录名称，此处如果发生断电或者重启，系统无法正常加载（修改前请务必记住，当前的EON的ip地址，否则无法重新连接，继续后面的步骤）
 
 # 下载新的版本分支并命名为openpilot文件夹（git clone 网址 文件夹名）
-git clone https://gitee.com/afaaa/kegman openpilot
+git clone https://github.com/dragonpilot-community/dragonpilot.git openpilot -b devel-i18n
 
 # 打开 openpilot 目录
 cd openpilot
@@ -65,18 +65,30 @@ cd openpilot
 git branch -a
 
 # 切换到目标分支
-git checkout kegman-0.7.3
+git checkout testing
 
 # 重新查看确认当前分支
 git branch
 
-# 编译重启
+# 重启编译
 # 0.7 之前的版本使用 make && reboot
-scons -i && reboot
+rm -rf /tmp/scons_cache && reboot
 ```
 
 或者用一条命令运行：
 
-<pre style="white-space: pre-wrap;word-wrap: break-word;">
-cd /data && rm -rf openpilot && git clone https://gitee.com/afaaa/kegman openpilot && cd openpilot && git checkout kegman-0.7.3 && scons -i && reboot
-</pre>
+```bash
+#about 130MB
+cd /data/ && \
+mv openpilot op_backup_$(date +%Y%m%d%H%M%S) ; \
+git clone https://github.com/dragonpilot-community/dragonpilot.git openpilot -b devel-i18n --single-branch --depth=1 && \
+cd openpilot/scripts/ && \
+./reset_update.sh
+```
+
+或者用DP脚本工具：
+
+```bash
+wget "http://wiki.dragonpilot.cn/files/software/clone_dp.sh" -O clone_dp.sh && sh clone_dp.sh
+```
+
