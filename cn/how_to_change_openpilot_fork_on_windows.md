@@ -89,6 +89,7 @@ cd openpilot/scripts/ && \
 或者用DP脚本工具：
 
 ```bash
-wget "http://wiki.dragonpilot.cn/files/software/clone_dp.sh" -O clone_dp.sh && sh clone_dp.sh
+wget "http://wiki.dragonpilot.cn/files/software/clone_dp.sh" -O clone_dp.sh && \
+dos2unix clone_dp.sh && sh clone_dp.sh
 ```
 

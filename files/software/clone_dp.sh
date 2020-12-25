@@ -100,7 +100,7 @@ update_neos() {
   [ -d "/data/neoupdate" ] || mkdir "/data/neoupdate"
   
   cd "/data/neoupdate"
-  file updater | grep 'ELF' >/dev/null || wget -T 60 "http://wiki.dragonpilot.cn/files/software/neoupdate/updater" -O updater
+  file updater | grep 'ELF' >/dev/null || wget -T 60 "http://wiki.dragonpilot.cn/files/software/neosupdate/updater" -O updater
   file updater | grep 'ELF' >/dev/null
   if [ $? -ne 0  ];then
     echo "[$(date +'%F %T')] 获取NEOS下载器失败"
