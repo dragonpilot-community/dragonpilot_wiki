@@ -1,7 +1,7 @@
 {
-  "ota_url": "http://dpp.cool/neosupdate/ota-signed-16e6e346e0e29ba9953d0ebd7185a7955b8e2261790f0e68aee74ced3028dfb8.zip",
+  "ota_url": "http://wiki.dpp.cool/otherFiles/neos/neos14.1/ota-signed-16e6e346e0e29ba9953d0ebd7185a7955b8e2261790f0e68aee74ced3028dfb8.zip",
   "ota_hash": "16e6e346e0e29ba9953d0ebd7185a7955b8e2261790f0e68aee74ced3028dfb8",
-  "recovery_url": "http://dpp.cool/neosupdate/recovery-4772f9348e04b560b9df87d6dea6c740fa8d62ea41a8db3842eec216f04e3110.img",
+  "recovery_url": "http://wiki.dpp.cool/otherFiles/neos/neos14.1/recovery-4772f9348e04b560b9df87d6dea6c740fa8d62ea41a8db3842eec216f04e3110.img",
   "recovery_len": 15922476,
   "recovery_hash": "4772f9348e04b560b9df87d6dea6c740fa8d62ea41a8db3842eec216f04e3110"
 }

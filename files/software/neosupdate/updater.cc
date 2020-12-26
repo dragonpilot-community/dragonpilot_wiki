@@ -262,6 +262,9 @@ struct Updater {
         progress_frac = (float) dlno / dltotal;
       }
     }
+    char printf_info[1024];
+    snprintf(printf_info, sizeof(printf_info),"echo 'donwload progress: %ldM %ldM %4.1f%%'>/dev/progress.info", dltotal/(1024*1024), dlno/(1024*1024), progress_frac*100);
+    system(printf_info);
     // printf("info: %ld %ld %f\n", dltotal, dlno, progress_frac);
     return 0;
   }

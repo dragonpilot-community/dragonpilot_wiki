@@ -1,32 +1,44 @@
 #/bin/bash
 #2020-12-26 toyboxZ create
+cat "$0"|grep -v grep | grep -lUP '\r$' >/dev/null && echo "先执行dos2unix '$0'" && exit
 
 branch="$1"
-basename "$0"|grep -E '\.[0-9]+$' >/dev/null
-if [ $? -ne 0 ];then
-  dos2unix "$0"
-  new_file="/dev/$(basename $0).$$"
-  cp "$0" "$new_file"
-  sh "$new_file" "$branch"
-  exit
-fi
-
 git_dp_uri="/dragonpilot-community/dragonpilot.git"
-git_host_list="github.com github.com.cnpmjs.org hub.fastgit.org"
+git_host_list="hub.fastgit.org github.com.cnpmjs.org github.com"
 git_host=github.com
 
 check_git_host() {
   echo "[$(date +'%F %T')] 正在检测git镜像站点速度"
-  local lh=$git_host; local lc=1000
-  for h in $git_host_list ;do
-    c=$(ping -c 1 -W1 $h 2>/dev/null |grep 'min/avg/max/mdev'|awk -F [=/] '{print $(NF-2)}'|awk -F '.' '{print $1}'); [ "$c" = "" ] && c=2000
-    [ $c -lt $lc ] && lc=$c && lh=$h
+  mount -o rw,remount /system #为写入/etc/hosts做准备
+  
+  local gc=10000; 
+  for host in $git_host_list ;do
+    sed -r -i "/.*[\t ]*${host}\$/d" /etc/hosts
+    local lc=10000; local lip="";
+    for ip in $(curl -m 2 "http://119.29.29.29/d?dn=${host}.&ttl=1" 2>/dev/null|sed 's/;/ /g'|awk -F ',' '{print $1}');do
+      echo $ip|grep -E '^[1-9]*[0-9]*\.[0-9]+\.[0-9]+\.[0-9]+$' >/dev/null
+      if [ $? -eq 0 ];then
+        c=$(ping  -c 5 -i0.2 -W1 $ip 2>/dev/null |grep 'min/avg/max/mdev'|awk -F [=/] '{print $(NF-2)}'|awk -F '.' '{print $1}'); [ "$c" = "" ] && c=10000
+        [ $c -lt $lc ] && lc=$c && lip=$ip
+        [ $c -lt $gc ] && gc=$c && git_host=$host
+      fi
+    done
+    
+    echo $lip|grep -E '^[1-9]*[0-9]*\.[0-9]+\.[0-9]+\.[0-9]+$' >/dev/null
+    if [ $? -eq 0 ];then
+      echo "$lip   $host" >> /etc/hosts
+    else
+      #httpDNS失效
+      c=$(ping -c 1 -W1 $h 2>/dev/null |grep 'min/avg/max/mdev'|awk -F [=/] '{print $(NF-2)}'|awk -F '.' '{print $1}'); [ "$c" = "" ] && c=10000
+      [ $c -lt $gc ] && gc=$c && git_host=$host
+    fi
   done
-  [ "$lh" != "" ] && git_host=$lh
+  
 }
 
 get_git_branchs() {
   branchs="$(git ls-remote --heads https://$git_host$git_dp_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
+  [ "$branchs" = "" ] && git_host=github.com && branchs="$(git ls-remote --heads https://$git_host$git_dp_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
 }
 
 complete_setup() {
@@ -53,6 +65,7 @@ git_clone() {
   git clone https://$git_host$git_dp_uri /tmp/openpilot -b $branch --single-branch --depth=1
   while [ $? -ne 0 ];do
     echo "[$(date +'%F %T')] 执行git clone https://$git_host$git_dp_uri失败,重试..."
+    git_host=github.com
     git clone https://$git_host$git_dp_uri /tmp/openpilot -b $branch --single-branch --depth=1
   done
   complete_setup && return 0
@@ -115,15 +128,19 @@ update_neos() {
   wget -T 10 $update_url 2>/dev/null -O - |grep ota_url >/dev/null
   [ $? -ne 0 ] && echo "[$(date +'%F %T')] 使用/tmp/openpilot/installer/updater/update.json做更新源" && update_url="file:///tmp/openpilot/installer/updater/update.json"
   
-  ./updater "$update_url" &
+  echo "[$(date +'%F %T')] 正在下载NEOS和recovery,进度请查看EON屏幕(注意不要退出/关闭当前SSH终端); 下载完成后EON会自动重启安装NEOS\n"
+  [ -f updater.log ] && rm -f updater.log
+  ./updater "$update_url" >> updater.log 2>&1 &
   while [ true ];do
     ps -ef|grep -v grep |grep updater >/dev/null
     if [ $? -ne 0 ];then
       sleep 3
+      cat updater.log
       echo "[$(date +'%F %T')] 下载NEOS ROM失败,正在重试."
-      ./updater "$update_url" &
+      ./updater "$update_url" >> updater.log 2>&1 &
     fi
     sleep 1
+    [ -f /dev/progress.info] && read l < /dev/progress.info 2>/dev/null && echo -n "\r$l\t\t\t"
   done
   
 }
@@ -150,7 +167,7 @@ s2=$(date +%s)
 . /tmp/openpilot/launch_env.sh
 [ $? -ne 0 ] && echo "[$(date +'%F %T')] 读取openpilot环境变量异常" && exit 1
 
-echo "[$(date +'%F %T')] git clone成功,耗时$((($s2-$s1)/60))min"
+echo "[$(date +'%F %T')] git clone成功,耗时$((($s2-$s1+60)/60))min"
 
 read neos_version < /VERSION
 if [ "$neos_version" != "$REQUIRED_NEOS_VERSION" ]; then
