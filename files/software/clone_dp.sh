@@ -176,8 +176,18 @@ s2=$(date +%s)
 
 clean_hosts
 
-. /tmp/openpilot/launch_env.sh
-[ $? -ne 0 ] && echo "[$(date +'%F %T')] 读取openpilot环境变量异常" && exit 1
+if [ -f /tmp/openpilot/launch_env.sh ];then
+  . /tmp/openpilot/launch_env.sh
+else
+  touch /data/params/d/AccessToken 2>/dev/null
+fi
+
+if [ "$REQUIRED_NEOS_VERSION" = "" ];then
+  [ "$REQUIRED_NEOS_VERSION" = "" ] && REQUIRED_NEOS_VERSION=$(echo "$branch"|awk '{if(match($0,/.*0\.6\.[5-6].*/))print "12";}')
+  [ "$REQUIRED_NEOS_VERSION" = "" ] && REQUIRED_NEOS_VERSION=$(echo "$branch"|awk '{if(match($0,/.*0\.7\.0.*/))print "13";}')
+  [ "$REQUIRED_NEOS_VERSION" = "" ] && REQUIRED_NEOS_VERSION=$(echo "$branch"|awk '{if(match($0,/.*0\.7\.[1-9]{1}[^0].*/))print "14";}')
+  [ "$REQUIRED_NEOS_VERSION" = "" ] && REQUIRED_NEOS_VERSION="NEOS_FOR_$branch"
+fi
 
 echo "[$(date +'%F %T')] git clone成功,耗时$((($s2-$s1+60)/60))min"
 
