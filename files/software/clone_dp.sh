@@ -2,11 +2,12 @@
 #2020-12-26 toyboxZ create
 cat "$0"|grep -v grep | grep -lUP '\r$' >/dev/null && echo "先执行dos2unix '$0'" && exit
 
-branch="$1"
+git_op_uri="$1"
 updater_md5=6933f79b9e0e616a5bdedc7d8dd2dafe
-git_dp_uri="/dragonpilot-community/dragonpilot.git"
+[ "$git_op_uri" = "" ] && git_op_uri="/dragonpilot-community/dragonpilot.git"
 git_host_list="hub.fastgit.org github.com.cnpmjs.org github.com"
 git_host=github.com
+branch=""
 
 check_git_host() {
   echo "[$(date +'%F %T')] 正在检测git镜像站点速度"
@@ -44,8 +45,8 @@ clean_hosts(){
 }
 
 get_git_branchs() {
-  branchs="$(git ls-remote --heads https://$git_host$git_dp_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
-  [ "$branchs" = "" ] && git_host=github.com && branchs="$(git ls-remote --heads https://$git_host$git_dp_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
+  branchs="$(git ls-remote --heads https://$git_host$git_op_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
+  [ "$branchs" = "" ] && git_host=github.com && branchs="$(git ls-remote --heads https://$git_host$git_op_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
   [ "$branchs" = "" ] && echo "[$(date +'%F %T')] 获取分支列表异常,请检查网络" && exit 1
 }
 
@@ -61,7 +62,7 @@ git_clone() {
   echo "[$(date +'%F %T')] 检查本地临时仓库/tmp/openpilot"
   if [ -d /tmp/openpilot ];then
     cd /tmp/openpilot
-    git remote -v 2>/dev/null|grep  "$git_dp_uri" >/dev/null || rm -rf /tmp/openpilot
+    git remote -v 2>/dev/null|grep  "$git_op_uri" >/dev/null || rm -rf /tmp/openpilot
     git branch    2>/dev/null|grep -w "$branch" >/dev/null || rm -rf /tmp/openpilot
     git fetch --depth 1 -f  origin "$branch" 2>/dev/null || rm -rf /tmp/openpilot
     git reset --hard FETCH_HEAD >/dev/null 2>&1 || rm -rf /tmp/openpilot
@@ -69,12 +70,12 @@ git_clone() {
   [ -d /tmp/openpilot ] && complete_setup && return 0
   
   cd /tmp
-  echo "[$(date +'%F %T')] 开始执行git clone https://$git_host$git_dp_uri"
-  git clone https://$git_host$git_dp_uri /tmp/openpilot -b $branch --single-branch --depth=1
+  echo "[$(date +'%F %T')] 开始执行git clone https://$git_host$git_op_uri"
+  git clone https://$git_host$git_op_uri /tmp/openpilot -b $branch --single-branch --depth=1
   while [ $? -ne 0 ];do
-    echo "[$(date +'%F %T')] 执行git clone https://$git_host$git_dp_uri失败,重试..."
+    echo "[$(date +'%F %T')] 执行git clone https://$git_host$git_op_uri失败,重试..."
     git_host=github.com
-    git clone https://$git_host$git_dp_uri /tmp/openpilot -b $branch --single-branch --depth=1
+    git clone https://$git_host$git_op_uri /tmp/openpilot -b $branch --single-branch --depth=1
   done
   complete_setup && return 0
 }
@@ -84,7 +85,7 @@ replace_repo() {
   rm -rf /data/openpilot
   mv -f /tmp/openpilot /data/
     
-  echo "[$(date +'%F %T')] DP分支切换完成，将自动重启进行编译"
+  echo "[$(date +'%F %T')] OP分支切换完成，将自动重启进行编译"
   seq 1 5|while read id;do sleep 1;echo -n ". ";done
   
   [ $to_recovery -eq 0 ] && reboot
@@ -101,6 +102,11 @@ choos_branch() {
 }
 
 set_branch() {
+  echo $git_op_uri |grep dragonpilot >/dev/null
+  if [ $? -ne 0 ] ;then
+    choos_branch
+    return
+  fi
   printf "
 [$(date +'%F %T')] 选择要执行的任务：
           1、安装testing分支(抢鲜版)
