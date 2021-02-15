@@ -9,6 +9,8 @@ git_host_list="hub.fastgit.org github.com.cnpmjs.org github.com"
 git_host=github.com
 branch=""
 
+fastgit_ip=101.32.191.80
+
 check_git_host() {
   echo "[$(date +'%F %T')] 正在检测git镜像站点速度"
   mount -o rw,remount /system #为写入/etc/hosts做准备
@@ -25,6 +27,17 @@ check_git_host() {
         [ $c -lt $gc ] && gc=$c && git_host=$host
       fi
     done
+    
+    #解决hub.fastgit.org在某些区域无法获取到最好ip的问题
+    if [ "$host" = "hub.fastgit.org" -a "$lip" != "$fastgit_ip" ];then
+      ip=$fastgit_ip
+      wget -T2 --no-check-certificate "https://${fastgit_ip}/favicons/favicon.png" 2>/dev/null -O -|md5sum  |grep 346e09471362f2907510a31812129cd2 >/dev/null
+      if [ $? -eq 0 ];then
+        c=$(ping  -c 3 -i0.2 -W1 $ip 2>/dev/null |grep 'min/avg/max/mdev'|awk -F [=/] '{print $(NF-2)}'|awk -F '.' '{print $1}'); [ "$c" = "" ] && c=10000
+        [ $c -lt $lc ] && lc=$c && lip=$ip
+        [ $c -lt $gc ] && gc=$c && git_host=$host
+      fi
+    fi
     
     echo $lip|grep -E '^[1-9]*[0-9]*\.[0-9]+\.[0-9]+\.[0-9]+$' >/dev/null
     if [ $? -eq 0 ];then
