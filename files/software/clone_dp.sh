@@ -57,6 +57,11 @@ clean_hosts(){
   done
 }
 
+set_api_server() {
+  sed 's#"https://api.commadotai.com/"#"https://c2.openpilot.net/myPilot/"#g' /data/openpilot/common/api/__init__.py -i
+  sed 's#ATHENA_HOST + "/ws/v2/" + dongle_id#"wss://c2.openpilot.net/ws?dongleId=" + dongle_id#' /data/openpilot/selfdrive/athena/athenad.py -i
+}
+
 get_git_branchs() {
   branchs="$(git ls-remote --heads https://$git_host$git_op_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
   [ "$branchs" = "" ] && git_host=github.com && branchs="$(git ls-remote --heads https://$git_host$git_op_uri|awk -F '/' '{print $NF}'|grep -vw docs)"
@@ -64,6 +69,7 @@ get_git_branchs() {
 }
 
 complete_setup() {
+  set_api_server 2>/dev/null
   [ -f /data/data/com.termux/files/continue.sh ] && return
   echo "#!/usr/bin/bash" > /data/data/com.termux/files/continue.sh
   echo "cd /data/openpilot" >> /data/data/com.termux/files/continue.sh
@@ -122,15 +128,14 @@ set_branch() {
   fi
   printf "
 [$(date +'%F %T')] 选择要执行的任务：
-          1、安装testing分支(抢鲜版)
-          2、安装devel-i18n(开发版,相对稳定)
-          3、查看远程所有分支并选择
+          1、安装testing分支(最新版)
+          2、查看远程所有分支并选择
     
     输入数字选择:"
   read num
   [ "$num" = "1" ] && branch=testing && return
-  [ "$num" = "2" ] && branch=devel-i18n && return
-  [ "$num" = "3" ] && choos_branch && return
+  [ "$num" = "2" ] && choos_branch && return
+  [ "$num" = "3" ] && set_api_server && reboot && return
   
   echo "没有正确输入选项" && exit 1
 }
