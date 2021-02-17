@@ -35,11 +35,13 @@ recovery_dev=$(readlink  /dev/block/platform/*/*/by-name/recovery)
 
 dowload_update_recovery(){
 
-  [ ! -f $TWRP ] && echo "开始下载TWRP(start download TWRP)" && wget $TWRP_URL -O $TWRP
+  [ ! -f $TWRP ] && echo "开始下载TWRP(start download TWRP)" && wget --dns-timeout=5 --connect-timeout=5 $TWRP_URL -O $TWRP
+  
+  sum=$(sha256sum  $TWRP |awk '{print $1}')
+  [ "$sum" != "$TWRP_SHA256SUM" ] && wget --dns-timeout=5 --connect-timeout=5 "https://dl.twrp.me/zl1/twrp-3.3.1-0-zl1.img -O $TWRP" 
   
   sum=$(sha256sum  $TWRP |awk '{print $1}')
   [ "$sum" != "$TWRP_SHA256SUM" ] && rm $TWRP && echo "TWRP下载失败(download TWRP fail)" && return 1
-  
   
   [ "$recovery_dev" = "" ] && echo "无法获取recovery设备(can't find recovery block)" && exit 1
 
