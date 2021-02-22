@@ -3,6 +3,31 @@
 - [更新记录[中文翻译]](openpilot_releases.md)
 
 
+### Version 0.8.2 (2021-02-26)
+
+* Use model points directly in MPC (no more polyfits), making for lateral planning more accurate
+* Use model heading prediction for smoother lateral control
+* Smarter actuator delay compensation
+* Adjust maximum engagement speed to better fit the model's training distribution
+* New driver monitoring model trained with 3x more diverse data
+* Improved face detection with masks
+* More predictable DM alerts when visibility is bad
+* Rewritten video streaming between openpilot processes
+* Improved longitudinal tuning on TSS2 Corolla and Rav4 thanks to briskspirit!
+* Audi A3 2015 support thanks to keeleysam!
+* Nissan Altima 2020 support thanks to avolmensky!
+* Lexus ES Hybrid 2018 support thanks to TheInventorMan!
+* Toyota Camry Hybrid 2021 support thanks to alancyau!
+
+### Version 0.8.1 (2020-12-21)
+
+* Original EON is deprecated, upgrade to comma two
+* Better model performance in heavy rain
+* Better lane positioning in turns
+* Fixed bug where model would cut turns on empty roads at night
+* Fixed issue where some Toyotas would not completely stop thanks to briskspirit!
+* Toyota Camry 2021 with TSS2.5 support
+* Hyundai Ioniq Electric 2020 support thanks to baldwalker!
 
 ### Version 0.8.0 (2020-11-30)
 

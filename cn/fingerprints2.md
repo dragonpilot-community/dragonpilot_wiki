@@ -35,22 +35,36 @@ Found FW versions
 
 **将车辆指纹2.0对应values.py 文件车型和硬件位置填入可暂时使用指纹控制车辆**
 
-以CRV混动2019中国版为例，获得车辆指纹2.0如下
+**并非所有找到的指纹都要填进去，下面的CRV找到13个ecu，2.0指纹的ecu只有8个，一样的有2个，最后增加的只有6个，用红框显示**
+
+以CRV混动2019中国版为例，获得车辆指纹2.0如下，
 
 Found FW versions
 {
   (Ecu.unknown, 0x18da01f1, None): [b'1K101-5RD-H030\x00\x00']
+
   (Ecu.unknown, 0x18da02f1, None): [b'1K021-5RD-H020\x00\x00']
+
   (Ecu.unknown, 0x18da0ef1, None): [b'37805-5TZ-H660\x00\x00']
+
   (Ecu.unknown, 0x18da0bf1, None): [b'54008-TMB-H510\x00\x00']
+
   (Ecu.unknown, 0x18da1cf1, None): [b'24851-5WR-A010\x00\x00']
+
   (Ecu.unknown, 0x18da28f1, None): [b'57114-TMB-H030\x00\x00']
+
   (Ecu.unknown, 0x18da2af1, None): [b'46114-TMB-H950\x00\x00']
+
   (Ecu.unknown, 0x18da30f1, None): [b'39990-TMA-H020\x00\x00']
+
   (Ecu.unknown, 0x18dab5f1, None): [b'36161-TMB-H040\x00\x00']
+
   (Ecu.unknown, 0x18daeff1, None): [b'38897-TMA-H110\x00\x00']
+
   (Ecu.unknown, 0x18da53f1, None): [b'77959-TLA-H240\x00\x00']
+
   (Ecu.unknown, 0x18da60f1, None): [b'78109-TMB-H220\x00\x00']
+
   (Ecu.unknown, 0x18dab0f1, None): [b'36802-TMB-H040\x00\x00']
 }
 
