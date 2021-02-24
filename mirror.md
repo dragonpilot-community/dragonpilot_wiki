@@ -19,11 +19,12 @@ fastgit| hub.fastgit.org
 分支版本|git 地址
 -|-
 官方版本|https://github.com.cnpmjs.org/commaai/openpilot
-afa版|https://github.com.cnpmjs.org/rming/openpilot
-dragonpilot|https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot
+afa版（已暂停更新）|https://github.com.cnpmjs.org/rming/openpilot
+dragonpilot（多语言多选项）|https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot
 Gernby|https://github.com.cnpmjs.org/gernby/openpilot
-kegman|https://github.com.cnpmjs.org/kegman/openpilot
-arne182|https://github.com.cnpmjs.org/arne182/ArnePilot
+kegman（多参数可调本田支持较好）|https://github.com.cnpmjs.org/kegman/openpilot
+arne182（多参数可调丰田支持较好）|https://github.com.cnpmjs.org/arne182/ArnePilot
+ShaneSmiskol（可支持白熊）|https://github.com.cnpmjs.org/ShaneSmiskol/openpilot
 raspberry-pilot|https://github.com.cnpmjs.org/gernby/raspberry-pilot
 
 
@@ -32,10 +33,11 @@ raspberry-pilot|https://github.com.cnpmjs.org/gernby/raspberry-pilot
 分支版本|git 地址
 -|-
 官方版本|https://hub.fastgit.org/commaai/openpilot
-afa版|https://hub.fastgit.org/rming/openpilot
-dragonpilot|https://hub.fastgit.org/dragonpilot-community/dragonpilot
+afa版（已暂停更新）|https://hub.fastgit.org/rming/openpilot
+dragonpilot（多语言多选项）|https://hub.fastgit.org/dragonpilot-community/dragonpilot
 Gernby|https://hub.fastgit.org/gernby/openpilot
-kegman|https://hub.fastgit.org/kegman/openpilot
-arne182|https://hub.fastgit.org/arne182/ArnePilot
+kegman（多参数可调本田支持较好）|https://hub.fastgit.org/kegman/openpilot
+arne182（多参数可调丰田支持较好）|https://hub.fastgit.org/arne182/ArnePilot
+ShaneSmiskol（可支持白熊）|https://hub.fastgit.org/ShaneSmiskol/openpilot
 raspberry-pilot|https://hub.fastgit.org/gernby/raspberry-pilot
 
