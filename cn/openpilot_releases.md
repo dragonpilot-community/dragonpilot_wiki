@@ -16,7 +16,7 @@
 * 优化了 TSS2的 卡罗拉 和 Rav4车型的纵向调节 ，感谢 briskspirit的贡献
 * 增加对奥迪A3 2015款车型的支持，感谢 keeleysam的贡献
 * 增加对日产 天籁（Altima） 2020款 车型的支持 ，感谢avolmensky的贡献
-* 增加对雷克萨斯混动 2018款车型的支持 ，感谢TheInventorMan的贡献
+* 增加对雷克萨斯es混动 2018款车型的支持 ，感谢TheInventorMan的贡献
 * 增加对丰田凯美瑞混动 2021款 车型的支持 ，感谢 to alancyau的贡献
 
 ### Version 0.8.1 (2020-12-21)
