@@ -5,7 +5,7 @@ cat "$0"|grep -v grep | grep -lUP '\r$' >/dev/null && echo "先执行dos2unix '$
 git_op_uri="$1"
 updater_md5=6933f79b9e0e616a5bdedc7d8dd2dafe
 [ "$git_op_uri" = "" ] && git_op_uri="/dragonpilot-community/dragonpilot.git"
-git_host_list="hub.fastgit.org github.com"
+git_host_list="hub.fastgit.org github.com.cnpmjs.org github.com"
 git_host=github.com
 branch=""
 
@@ -31,7 +31,7 @@ check_git_host() {
     #解决hub.fastgit.org在某些区域无法获取到最好ip的问题
     if [ "$host" = "hub.fastgit.org" -a "$lip" != "$fastgit_ip" ];then
       ip=$fastgit_ip
-      wget -T2 --no-check-certificate "https://${fastgit_ip}/favicons/favicon.png" 2>/dev/null -O -|md5sum  |grep 346e09471362f2907510a31812129cd2 >/dev/null
+      wget -T2 --no-check-certificate "https://${ip}/favicons/favicon.png" 2>/dev/null -O -|md5sum  |grep 346e09471362f2907510a31812129cd2 >/dev/null
       if [ $? -eq 0 ];then
         c=$(ping  -c 3 -i0.2 -W1 $ip 2>/dev/null |grep 'min/avg/max/mdev'|awk -F [=/] '{print $(NF-2)}'|awk -F '.' '{printf("%d", $1/1.5)}'); [ "$c" = "" ] && c=10000
         [ $c -lt $lc ] && lc=$c && lip=$ip
