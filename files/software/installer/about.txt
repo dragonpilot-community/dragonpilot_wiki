@@ -1,0 +1,16 @@
+使用op的updater.cc进行下载dp，版本发布步骤；
+1、使用git clone下载指定分支，例如
+
+cd /data
+git clone https://github.com/dragonpilot-community/dragonpilot.git openpilot -b testing --single-branch --depth=1
+
+2、tar打包单个git分支仓库
+
+cd /data/openpilot
+tar czf testing.tar.gz .git*
+#该分支个鞥下后需要重新执行2~3
+
+3、 将打包好的文件传入OSS
+/files/git/testing.tar.gz
+
+4、修改updater.cc获取到该包

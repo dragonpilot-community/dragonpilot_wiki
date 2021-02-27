@@ -1,4 +1,5 @@
 #/bin/sh
+cd /data/openpilot || exit 
 sed 's#"https://api.commadotai.com/"#"https://c2.openpilot.net/myPilot/"#g' common/api/__init__.py -i
 sed 's#ATHENA_HOST + "/ws/v2/" + dongle_id#"wss://c2.openpilot.net/ws?dongleId=" + dongle_id#' selfdrive/athena/athenad.py -i
 grep 'from="' /data/params/d/GithubSshKeys >/dev/null ; s1=$?
