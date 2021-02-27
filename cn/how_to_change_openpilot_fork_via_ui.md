@@ -9,11 +9,10 @@
 由于国内网络访问 github 的速度不佳，我制作了这个存储在 gitee 上的 [openpilot 代码镜像项目](/mirror.md)，当你通过这种方式安装 openpilot 的时候，程序会根据你的网络自动选择代码的下载地址（github 或者 gitee），从而解决了安装速度慢的问题。
 
 
-##### http开头，http开头，http开头，请注意
 
-【devel-i18n分支】http://dpp.cool/cn/devel-i18n
+【devel-i18n分支】https://wiki.dpp.cool/devel-i18n
 
-【testing分支】http://dpp.cool/cn/testing
+【testing分支】https://wiki.dpp.cool/testing
 
 ### 支持的 fork
 
