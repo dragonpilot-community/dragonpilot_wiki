@@ -1,6 +1,6 @@
 ## 通过界面安装 openpilot 分支版本
 
-![通过界面安装 openpilot 分支版本](/files/install_fork_via_ui.gif)
+![通过界面安装 openpilot 分支版本](/files/install_fork_via_ui2.gif)
 
 ### 简介
 
