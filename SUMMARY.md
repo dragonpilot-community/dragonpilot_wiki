@@ -1,5 +1,6 @@
 # Summary
 
+* [快速入门](README.md)
 #### 版本更新记录篇
 * [OP更新记录[中文翻译]](cn/openpilot_releases.md)
 * [OP更新记录[英文原版]](cn/openpilot_releases_en.md)
