@@ -44,9 +44,8 @@ pc浏览器直接访问https://c2.openpilot.net 可以看到对应的界面管�
 * [配置putty和winscp](cn/putty_and_winscp.md)
 * [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
 * [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
-以下代码是使用cnpmjs.org镜像网址，如果不成功请更换其中https网址为其他的来使用
 
-查看教程后，按照教程ssh连接你设备，然后复制下面代码进行安装
+查看教程后，按照教程使用ssh工具连接你设备，然后复制下面代码进行安装
 
 以下是使用DP安装脚本工具：
 
