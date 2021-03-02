@@ -40,31 +40,30 @@ pc浏览器直接访问https://c2.openpilot.net 可以看到对应的界面管�
 
 如果使用界面安装多次失败，主要是手机热点或者移动宽带，联通宽带失败情况下，请尝试用ssh代码安装
 
-
-ssh使用配置参考
-- [使用 Putty SSH 切换 openpilot 分支版本](/cn/how_to_change_openpilot_fork_on_windows.md )
-
+使用ssh代码，属于高阶内容，需要使用ssh工具进行git操作，如果有兴趣的请先阅读高阶教程
+* [配置putty和winscp](cn/putty_and_winscp.md)
+* [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
+* [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
 以下代码是使用cnpmjs.org镜像网址，如果不成功请更换其中https网址为其他的来使用
 
-使用cnpmjs.org镜像安装devel-i18n分支
+查看教程后，按照教程ssh连接你设备，然后复制下面代码进行安装
+
+以下是使用DP安装脚本工具：
 
 ```bash
-cd /data/ && git clone https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot openpilot -b devel-i18n --depth=1 && cd /data/openpilot/scripts && ./complete_setup.sh
+wget "http://wiki.dragonpilot.cn/files/software/clone_dp.sh" -O clone_dp.sh && \
+dos2unix clone_dp.sh && sh clone_dp.sh
 ```
 
-使用cnpmjs.org镜像安装testing分支
-```bash
-cd /data/ && git clone https://github.com.cnpmjs.org/dragonpilot-community/dragonpilot openpilot -b testing --depth=1 && cd /data/openpilot/scripts && ./complete_setup.sh
-```
+putty下ssh使用DP脚本工具效果如图
 
-
+![1614668110907](../files/how_to_change_openpilot_fork_via_ui/1614668110907.png)
 
 
 ###  NEOS 系统安装参考：
-
-- [Windows 下手动分布安装 openpilot 教程](/cn/how_to_flash_openpilot_on_windows_step_by_step.md)
-- [Windows 下一键安装 openpilot 教程](/cn/how_to_flash_openpilot_on_windows.md)
-- [macOS 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_mac.md)
+- [Windows 下手动安装 NEOS系统+openpilot软件教程](cn/how_to_flash_openpilot_on_windows_step_by_step.md)
+- [Windows 下一键安装 NEOS系统+openpilot软件 教程](/cn/how_to_flash_openpilot_on_windows.md)
+- [macOS 下手动安装 NEOS系统+openpilot软件教程](cn/how_to_flash_openpilot_on_mac.md)
 
 
 如果你已经安装了 openpilot，那么你可以通过先 **卸载 openpilot**，然后重新回到输入 Software Url 的界面，输入上述地址即可。

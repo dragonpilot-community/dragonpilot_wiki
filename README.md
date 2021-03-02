@@ -26,9 +26,9 @@
 - [配置putty和winscp](cn/putty_and_winscp.md)
 - [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
 - [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
-- [Windows 下一键安装 openpilot 教程](cn/how_to_flash_openpilot_on_windows.md)
-- [Windows 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_windows_step_by_step.md)
-- [macOS 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_mac.md)
+- [Windows 下一键安装  NEOS系统+openpilot软件教程](cn/how_to_flash_openpilot_on_windows.md)
+- [Windows 下手动安装  NEOS系统+openpilot软件 教程](cn/how_to_flash_openpilot_on_windows_step_by_step.md)
+- [macOS 下手动安装  NEOS系统+openpilot软件教程](cn/how_to_flash_openpilot_on_mac.md)
 #### 系统备份篇
 - [关于TWRP使用的部分说明](cn/about_twrp.md)
 - [使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)

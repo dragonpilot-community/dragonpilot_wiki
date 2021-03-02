@@ -3,6 +3,8 @@
 -------
 **重要：**
 
+**NEOS是系统，openpilot是软件，教程中使用的NEOS系统镜像包含了openpilot软件，原版NEOS默认不包含openpilot软件，需要自行通过ui界面安装或者通过ssh工具安装。**
+
 **不要在 Android 9.0 系统下解锁刷机！！！**
 
 **请先降级到 Android 8.0 系统以下再刷机！！！**

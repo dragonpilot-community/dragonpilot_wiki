@@ -92,4 +92,7 @@ cd openpilot/scripts/ && \
 wget "http://wiki.dragonpilot.cn/files/software/clone_dp.sh" -O clone_dp.sh && \
 dos2unix clone_dp.sh && sh clone_dp.sh
 ```
+putty下ssh使用DP脚本工具效果如图
+
+![1614668110907](../files/how_to_change_openpilot_fork_via_ui/1614668110907.png)
 
