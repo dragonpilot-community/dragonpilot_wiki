@@ -1,5 +1,12 @@
 ## Openpilot 国内镜像
 
+
+以下内容属于ssh高阶内容，需要使用ssh工具进行git操作，如果有兴趣的请先阅读高阶教程
+* [配置putty和winscp](cn/putty_and_winscp.md)
+* [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
+* [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
+
+
 ### 背景
 
 因为 github.com 的访问速度较慢，Openpilot 源码较大（>600M），一些分支版本甚至超过1G，这让 Openpilot 的下载安装变得非常痛苦，基于以上原因，你可以使用以下镜像地址替换 github 地址。

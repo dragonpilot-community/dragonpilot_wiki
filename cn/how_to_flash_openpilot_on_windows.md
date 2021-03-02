@@ -3,6 +3,8 @@
 -------
 **重要：**
 
+**NEOS是系统，openpilot是软件，教程中使用的NEOS系统镜像包含了openpilot软件，原版NEOS默认不包含openpilot软件，需要自行通过ui界面安装或者通过ssh工具安装。**
+
 **不要在 Android 9.0 系统下解锁刷机！！！**
 
 **请先降级到 Android 8.0 系统以下再刷机！！！**
@@ -35,13 +37,13 @@
 
   修改来源于@afa版本，优先推荐使用，会预装电脑内adb工具和手机驱动，避免因为没有安装adb工具环境连不上手机情况
   一键安装驱动+neos+twrp
-  
+
   天翼云链接 https://cloud.189.cn/t/67FN3yz6N7bu
-  
+
   NEOS镜像地址，选择其中一个安装即可，
-  
+
   0.7.10以后用 neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
-  
+
 
 ##### 2. 运行脚本 `flash.bat`，按照脚本提示进行操作
 
@@ -52,8 +54,6 @@
 
 <center><img src="/files/windows_flash_neos1.png"></center>
 <center><img src="/files/windows_flash_neos2.png"></center>
-
-
 ### 系统初始化设置
 
 手机将在重启后进入 openpilot 系统，但是在使用之前，还需要链接无线WIFI、编译安装openpilot，当然这些都是自动完成的，我们只需要按照界面提示，选择确认即可。
