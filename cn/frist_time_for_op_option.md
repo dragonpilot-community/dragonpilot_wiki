@@ -1,6 +1,6 @@
 ## 首次使用dragonpilot时候各种画面说明
 
-建议第一次使用dp时候，开启社区功能+启用ssh功能
+##### 建议第一次使用dp时候，开启社区功能+启用ssh功能
 
 开启路径--设置--开发人员--开启功能
 
@@ -24,11 +24,66 @@
 
 ![1607315900969](../files/frist_time_for_op_option/1607315900969.png)
 
-点击dragonpilot按钮后显示
-
-![1607316282227](../files/frist_time_for_op_option/1607316282227.png)
 
 
+##### 英文界面改中文界面方法，右上角齿轮--安卓设置--语言--中文--备份按钮返回--重启，就可以
+
+![dp英文界面改中文界面方法](../files/frist_time_for_op_option/dp英文界面改中文界面方法.gif)
+
+##### op软件默认北美时区，时区不正确修改方法，右上角齿轮--安卓设置--时间--关闭自动时间--选择时区---修改24小时--备份选项--重启，就可以
+
+![修改时区](../files/frist_time_for_op_option/修改时区.gif)
+
+##### openpilot默认选项展示
+
+![1614755751882](../files/frist_time_for_op_option/1614755751882.png)
+
+![默认选项-账户-设备-wifi-开发人员](../files/frist_time_for_op_option/默认选项-账户-设备-wifi-开发人员.gif)
+
+![op服务](../files/frist_time_for_op_option/op服务.png)
+
+![op默认选项](../files/frist_time_for_op_option/op默认选项.gif)
+
+##### dp选项展示
+
+dp选项展示--操控选项
+
+<img src="../files/frist_time_for_op_option/dp操控.png" alt="dp操控" style="zoom:150%;" />
+
+
+![dp选项-操控](../files/frist_time_for_op_option/dp选项-操控.gif)
+
+dp选项展示--介面设置
+
+![dp界面](../files/frist_time_for_op_option/dp界面.png)
+
+![dp选项--介面设置](../files/frist_time_for_op_option/dp选项--介面设置-1614755264580.gif)
+
+dp选项展示--第三方应用设置
+
+![dp-第三方](../files/frist_time_for_op_option/dp-第三方.png)
+
+![dp选项--第三方应用](../files/frist_time_for_op_option/dp选项--第三方应用.gif)
+
+dp选项展示--车型设置
+
+![dp车型](../files/frist_time_for_op_option/dp车型.png)
+
+![dp选项--车型设置](../files/frist_time_for_op_option/dp选项--车型设置.gif)
+
+
+
+dp选项展示--服务-硬件-指纹-其他
+
+![dp服务](C:/Users/Administrator/Desktop/dp服务.png)
+
+![DP选项展示-服务（需重启）](../files/frist_time_for_op_option/DP选项展示-服务（需重启）.gif)
+
+![dp硬件](../files/frist_time_for_op_option/dp硬件.png)
+
+![DP选项展示-硬件-调校](../files/frist_time_for_op_option/DP选项展示-硬件-调校.gif)
+
+![DP选项展示-指纹-其他](../files/frist_time_for_op_option/DP选项展示-指纹-其他.gif)
 
 ##### 启动NEOS时候画面，开机comma的逗号logo
 
