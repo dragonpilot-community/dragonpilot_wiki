@@ -30,6 +30,10 @@
 
 ![dp英文界面改中文界面方法](../files/frist_time_for_op_option/dp英文界面改中文界面方法.gif)
 
+##### op软件默认北美时区，时区不正确修改方法，右上角齿轮--安卓设置--时间--关闭自动时间--选择时区---修改24小时--备份选项--重启，就可以
+
+![修改时区](../files/frist_time_for_op_option/修改时区.gif)
+
 ##### openpilot默认选项展示
 
 ![1614755751882](../files/frist_time_for_op_option/1614755751882.png)
