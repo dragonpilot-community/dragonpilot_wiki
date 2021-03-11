@@ -14,11 +14,17 @@
 
 - 体积缩小了，panda 和 harness 变成了 2 个小黑盒子，giraffe 变成了线束，可以放进原车的 ACC 盒子里，第一代不行。
 - 新增硬件 harness ，可以检测是否连接了EON，自动切换原车和 OP，而第一代需要手动拨动开关切换。
+- 灰熊grey panda软件支持到0.8版本
+- 黑熊black panda软件支持到0.9版本
 
 **第三代硬件 Comma2 改进：**
 
-- 内置 Black Panda，前置红外摄像头，可以在夜间监控驾驶员是否安全驾驶。
-- 移除了手机电池，避免设备长时间暴晒下的高温锂电池爆炸风险。
+- 内置集成了black panda（定义为三代称UNO，二代称black panda, 一代grey/white panda，区分以代码内panda识别来判断)，UNO控制整个系统的电源和功耗，控制散热和风扇
+- 前置红外摄像头，主要实现通过红外补光和去掉原EON里前摄像头的IR滤镜实现，可以在夜间监控驾驶员是否安全驾驶。
+- 移除了手机电池，因为锂电池怕高温 同时寿命也受限！去掉电池 整个系统可以在更高的温度下工作
+- 自备电池跑实时时钟(RTC) ，因为没有电池了 因此整车断电后 会没有时间；这个为了保证系统时间一直是准确的
+- USB实现软交换 可以通过OBD-C(逗号定义的TypeC)
+- comma2软件至少支持到1.0版本
 
 
 ### Openpilot 的主要特性包括哪些？
@@ -36,19 +42,19 @@ Openpilot 官方版本支持 **车道保持** 、**ACC巡航**、**自动辅助�
 
 ### 如何购买 openpilot 硬件？
 
-参考： [Openpilot 硬件购买篇](cn/how_to_buy_openpilot.md)
+参考： [Openpilot 硬件购买篇](/cn/how_to_change_openpilot_fork_on_windows.md)
 
 
 ### 如何安装 openpilot 软件？
 
 参考：
 
-
-- [Windows 下一键安装 openpilot 教程](cn/how_to_flash_openpilot_on_windows.md)
-- [Windows 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_windows_step_by_step.md)
-- [macOS 下手动安装 openpilot 教程](cn/how_to_flash_openpilot_on_mac.md)
-- [通过界面安装 openpilot 分支版本](cn/how_to_change_openpilot_fork_via_ui.md)
-- [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
+* [Openpilot 硬件一览表](/cn/hardwares.md)
+* [Windows 下一键安装 openpilot 教程](/cn/how_to_buy_openpilot.html)
+* [Windows 下手动安装 openpilot 教程](/cn/how_to_buy_openpilot.html)
+* [macOS 下手动安装 openpilot 教程](/cn/how_to_buy_openpilot.html)
+* [通过界面安装 openpilot 分支版本](/cn/how_to_change_openpilot_fork_via_ui.md)
+* [使用 Putty SSH 切换 openpilot 分支版](/cn/how_to_change_openpilot_fork_on_windows.md)
 
 
 
