@@ -6,9 +6,9 @@
 
 安装教程中使用硬件主要是以下的硬件
 
-### 如何购买 openpilot 硬件以及硬件之间的差别区分？
+### 如何购买 openpilot 硬件以及硬件之间的差别说明？
 
-参考： [Openpilot 硬件购买篇](/cn/how_to_change_openpilot_fork_on_windows.md)
+参考： [Openpilot 硬件购买篇](/cn/how_to_buy_openpilot.html)
 
 #### 第二代硬件
 

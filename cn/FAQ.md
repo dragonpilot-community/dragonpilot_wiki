@@ -42,7 +42,7 @@ Openpilot 官方版本支持 **车道保持** 、**ACC巡航**、**自动辅助�
 
 ### 如何购买 openpilot 硬件？
 
-参考： [Openpilot 硬件购买篇](/cn/how_to_change_openpilot_fork_on_windows.md)
+参考： [Openpilot 硬件购买篇](/cn/how_to_buy_openpilot.html)
 
 
 ### 如何安装 openpilot 软件？
@@ -50,9 +50,9 @@ Openpilot 官方版本支持 **车道保持** 、**ACC巡航**、**自动辅助�
 参考：
 
 * [Openpilot 硬件一览表](/cn/hardwares.md)
-* [Windows 下一键安装 openpilot 教程](/cn/how_to_buy_openpilot.html)
-* [Windows 下手动安装 openpilot 教程](/cn/how_to_buy_openpilot.html)
-* [macOS 下手动安装 openpilot 教程](/cn/how_to_buy_openpilot.html)
+* [Windows 下一键安装 openpilot 教程](/cn/how_to_flash_openpilot_on_windows.html)
+* [Windows 下手动安装 openpilot 教程](/cn/how_to_flash_openpilot_on_windows_step_by_step.html)
+* [macOS 下手动安装 openpilot 教程](/cn/how_to_flash_openpilot_on_mac.html)
 * [通过界面安装 openpilot 分支版本](/cn/how_to_change_openpilot_fork_via_ui.md)
 * [使用 Putty SSH 切换 openpilot 分支版](/cn/how_to_change_openpilot_fork_on_windows.md)
 
