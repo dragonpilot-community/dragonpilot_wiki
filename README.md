@@ -46,6 +46,7 @@
 - [抓取车辆指纹1.0](cn/Creating_Fingerprints.md)
 - [抓取车辆指纹2.0](cn/fingerprints2.md)
 - [raspberry-pilot 安装指南](cn/how_to_install_raspberrypilot.md)
+- [Raspilot 简易教程（感谢Cnlinuxman）](cn/Raspilot.md)
 - [EON USB 有线网卡设置](cn/eon_usb_eth0.md)
 - [EON 开机自动开启 WIFI 热点](cn/openpilot_enable_wifi_hotspot.md)
 - [一加3T三段式开关切换 openpilot 版本](cn/Oneplus3t_tri_state_key_switch.md)
