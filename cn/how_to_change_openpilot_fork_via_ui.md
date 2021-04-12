@@ -25,10 +25,10 @@ testing分支|新功能尝鲜分支，可能不稳定有bug|https://wiki.dpp.coo
 
 
 ### 买买熊团队支持的 MP fork（MyPilot）
+说明：MyPilot团队优先支持其用户使用，更多问题请向MyPilot团队咨询，wiki页面仅做收录无利益相关，也希望更多的不同fork能出现并且能给界面化安装
 分支名|域名
 -|-
 MP稳定版本|https://c2.openpilot.net
-MP定制版本| https://c2.openpilot.net/op/custom 
 
 pc浏览器直接访问https://c2.openpilot.net 可以看到对应的界面管理页面以及MP版本说明
 
