@@ -2,6 +2,21 @@
 * 个人翻译如有不妥欢迎提交修改
 - [更新记录[英文原版]](openpilot_releases_en.md)
 
+  
+
+### Version 0.8.3 (2021-04-01)
+
+- 新模型
+  - 训练使用新的不同数据集，来自于来自30多个国家的2000 +的用户
+  - 训练改善 segnet 来自于comma-pencil项目
+  - ![leafy_green](../files/openpilot_releases/1f96c.png)显著提高端到端横向控制性能 ![leafy_green](../files/openpilot_releases/1f96c.png)
+- 增加禁止使用无车道模式（ lanelines）的按钮
+- NEOS 升级: 升级支持新用户界面（new UI）
+- 新的用户界面基于Qt设计
+- 默认 SSH 秘钥仅在安装阶段使用
+- 增加对起亚Kia Ceed 2019 车型支持 ，感谢 ZanZaD13的贡献!
+- 增加对起亚Kia Seltos 2021 车型支持 ，感谢 speedking456的贡献!
+- 增加对众多的 Volkswagen 和Škoda 车型支持，感谢 jyoung8607的贡献!
 
 ### Version 0.8.2 (2021-02-26)
 
@@ -17,7 +32,7 @@
 * 增加对奥迪A3 2015款车型的支持，感谢 keeleysam的贡献
 * 增加对日产 天籁（Altima） 2020款 车型的支持 ，感谢avolmensky的贡献
 * 增加对雷克萨斯es混动 2018款车型的支持 ，感谢TheInventorMan的贡献
-* 增加对丰田凯美瑞混动 2021款 车型的支持 ，感谢 to alancyau的贡献
+* 增加对丰田凯美瑞混动 2021款 车型的支持 ，感谢 alancyau的贡献
 
 ### Version 0.8.1 (2020-12-21)
 
