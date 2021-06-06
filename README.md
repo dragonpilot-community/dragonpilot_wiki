@@ -7,7 +7,7 @@
 #### 版本更新记录篇
 - [更新记录[中文翻译]](cn/openpilot_releases.md)
 - [更新记录[英文原版]](cn/openpilot_releases_en.md)
-- [DP更新记录[按照时间顺序]](cn/CHANGELOGS.md)
+- [DP更新记录](cn/CHANGELOGS.md)
 #### 新手安装篇
 - [新手必读](cn/FAQ.md)
 - [常见术语](cn/Glossary_of_terminology.md)
@@ -34,6 +34,9 @@
 - [使用 TWRP 恢复 openpilot 备份](cn/how_to_restore_openpilot_backup_via_twrp.md)
 - [一加3T手机WIFI mac 丢失问题](cn/Oneplus3t_wifi_mac_02_00.md)
 - [一加3T手机分区一键备份恢复工具](cn/openpilot_partition_backup.md)
+#### 系统9008恢复相关教程篇
+- [一加3T的9008教程-来源百度贴吧](cn/the guide 9008 for oneplus3T.md)
+- [乐视手机用flashone工具教程](cn/the guide for lephone FlashOne.md)
 #### 硬件篇
 - [EON 快拆底座制作指南](cn/EON_Connector.md)
 - [EON 亚克力外壳](cn/eon_acrylic_case.md)
