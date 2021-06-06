@@ -1,22 +1,54 @@
 ## Openpilot 版本更新记录
 * 个人翻译如有不妥欢迎提交修改
-- [更新记录[英文原版]](openpilot_releases_en.md)
+* [更新记录[英文原版]](openpilot_releases_en.md)
+
+  
+
+###  Version 0.8.5 (2021-06-11)
+
+* NEOS 升级: 提高可靠性和稳定性
+* 基于Smart model前方碰撞警告
+* 基于CAN的指纹移动到社区功能切换按钮里面
+* 改善了丰田车型使用comma pedal时候的纵向控制
+* 增加对现代 Elantra 2021 车型支持 ，感谢 CruiseBrantley的贡献!
+* 增加对雷克萨斯 UX 混动 2019-2020 车型支持 ， 感谢brianhaugen2的贡献!
+* 增加对丰田 Avalon 混动2019 车型支持 ，感谢 jbates9011的贡献!
+* 增加对西亚特 Leon 2017 & 2020 车型支持，感谢 jyoung8607的贡献!
+* 增加对斯柯达 Octavia 2015 & 2019 车型支持，感谢 jyoung8607的贡献!
+
+
+
+### Version 0.8.4 (2021-05-17)
+
+* 延迟控制启动直到系统准备就绪
+
+* 车型的模糊识别，启用与社区功能切换按钮
+
+* 为提高精度和减少CPU使用而优化的定位器
+
+* 当模型有把握时，重新调校的横向控制更激进
+
+* 增加对丰田 Mirai 2021车型支持
+
+* 增加对雷克萨斯 NX 300 2020车型支持，感谢 goesreallyfast的贡献!
+
+* 增加对大众 Atlas 2018-19车型支持，感谢 jyoung8607的贡献!
 
   
 
 ### Version 0.8.3 (2021-04-01)
 
-- 新模型
-  - 训练使用新的不同数据集，来自于来自30多个国家的2000 +的用户
-  - 训练改善 segnet 来自于comma-pencil项目
-  - ![leafy_green](../files/openpilot_releases/1f96c.png)显著提高端到端横向控制性能 ![leafy_green](../files/openpilot_releases/1f96c.png)
-- 增加禁止使用无车道模式（ lanelines）的按钮
-- NEOS 升级: 升级支持新用户界面（new UI）
-- 新的用户界面基于Qt设计
-- 默认 SSH 秘钥仅在安装阶段使用
-- 增加对起亚Kia Ceed 2019 车型支持 ，感谢 ZanZaD13的贡献!
-- 增加对起亚Kia Seltos 2021 车型支持 ，感谢 speedking456的贡献!
-- 增加对众多的 Volkswagen 和Škoda 车型支持，感谢 jyoung8607的贡献!
+* 新模型
+  * 训练使用新的不同数据集，来自于来自30多个国家的2000 +的用户
+  * 训练改善 segnet 来自于comma-pencil项目
+  * ![leafy_green](../files/openpilot_releases/1f96c.png)显著提高端到端横向控制性能 ![leafy_green](../files/openpilot_releases/1f96c.png)
+* 增加禁止使用无车道模式（ lanelines）的按钮
+* NEOS 升级: 升级支持新用户界面（new UI）
+* 新的用户界面基于Qt设计
+* 默认 SSH 秘钥仅在安装阶段使用
+* 增加对起亚Kia Ceed 2019 车型支持 ，感谢 ZanZaD13的贡献!
+* 增加对起亚Kia Seltos 2021 车型支持 ，感谢 speedking456的贡献!
+* 增加对众多的大众和斯柯达车型支持，感谢 jyoung8607的贡献!
 
 ### Version 0.8.2 (2021-02-26)
 
