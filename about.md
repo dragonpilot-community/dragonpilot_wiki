@@ -2,20 +2,20 @@
 
 ### Dragonpilot社区宗旨
 
-第一条
+- 第一条
 Dragonpilot社区是以openpilot相关技术为主的网络社区。
 主要包含https://github.com/dragonpilot-community 内的相关内容
-第二条
+- 第二条
 Dragonpilot是基于 openpilot 的开源驾驶辅助系統，请在安全范围内使用Dragonpilot，Dragonpilot社区对使用Dragonpilot软件时可能对用户自己或他人造成的任何形式的损失和伤害不承担责任。
-第三条
+- 第三条
 wiki.dragonpilot.cn（以下简称wiki-dp）是Dragonpilot社区进行维护的关于openpilot相关的百科说明页面，欢迎所有愿意编辑的人员通过GitHub方式参与更新百科说明。
-第四条
+- 第四条
 Dragonpilot社区和wiki-dp仅针对Dragonpilot软件使用进行说明，不针对任何事件或人发表意见，除Dragonpilot软件开发者以外，任何个人都不能代表Dragonpilot社区和wiki-dp的态度。
-第五条
+- 第五条
 Dragonpilot社区和wiki-dp上进行编辑的人员对自己发布的内容独立承担责任，Dragonpilot社区管理人员拥有对非Dragonpilot软件说明的文字删除的权力。
-第六条 
+- 第六条 
 Dragonpilot社区现在暂无硬件提供，wiki-dp硬件说明页面仅作为编辑人员个人推荐，Dragonpilot社区没有任何利益关联。
-第七条
+- 第七条
 Dragonpilot社区暂无发布硬件计划。
 
 
