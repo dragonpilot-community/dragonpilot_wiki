@@ -42,6 +42,7 @@
 - [EON 亚克力外壳](cn/eon_acrylic_case.md)
 #### 高阶资料篇
 - [OP设置SSH-绑定GitHub账户](cn/how_to_setup_github_ssh.md)
+- [在一加3T手机上安装DP0.8.4版本](cn/HOWTO-ONEPLUS.md)
 - [常用命令](cn/commands.md)
 - [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
 - [NEOS 降级指南](cn/how_to_downgrade_neos.md)
