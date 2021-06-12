@@ -29,10 +29,10 @@
 
 步骤一：打开升级工具，main.exe.
 
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-20031210323U28.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-20031210323U28.jpg)
 
 步骤二：选项填写。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-200312103300H5.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-200312103300H5.jpg)
 
 1、刷机方式 FASTBOOT
 2、选择升级包。
@@ -44,27 +44,26 @@
 
 步骤三：手机的设置。 手机关机状态下，同时按下‘音量下按键+开关键’，待手机震动后，松开开 关键，等待屏幕出现刷机模式时，松开音量下，手机进入FASTBOOT模式， 插入USB线连接电脑。
 
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-20031210331G49.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-20031210331G49.jpg)
 
 步骤四: 刷新设备 点击刷新设备，会自动显示当前设备
 
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-2003121033342E.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-2003121033342E.jpg)
 
 步骤五：点击开始升级，第一次升级需要解压。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-200312103511329.jpg)
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-20031210335b02.jpg)
-
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-200312103511329.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-20031210335b02.jpg)
 
 步骤六：升级完成。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-200312103411N0.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-200312103411N0.jpg)
 
 问题：
 
 Ø 如果刷新设备为空，在点击开始刷机时，会提示‘请选择设备’。 Ø 如果软件包选择的型号不匹配，会有提示。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-20031210353OC.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-20031210353OC.jpg)
 
 Ø 第一次升级，会先解压软件包，之后的升级如果软件包没有变化，会有一个提示‘是否需要重新解压’， 可以选择‘No’，这样就不用重复升级前解压的步骤了。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-20031210354X31.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-20031210354X31.jpg)
 
 **QFIL模式升级**
 
@@ -73,10 +72,10 @@
 此方法是针对手机无法开机，或者无法进入Fastboot模式。 主要表现是：完全不开机，或者连接电脑显示如下端口的。
 • 对于高通平台：包括X820、X520系列，可以强制把手机切换到QFIL模式。 关机状态下，同时按住手机的开关键、音量上和下，使手机进入QFIL模 式。
 • MTK平台：包括X620系列。关机后，按住音量上开机进入MTK USB Port。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](http://www.viprom.cn/uploads/allimg/200312/1-200312104211406.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-200312104211406.jpg)
 
 **高通平台：包括X520、X820 刷机步骤类似于fastboot.**
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-2003121042294S.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-2003121042294S.jpg)
 步骤一：选择刷机方式 Qualcomm_flash dead phone.
 步骤二：升级包选择对应的qfil包
 步骤三：插入手机，刷新设备显示 COM口
@@ -89,12 +88,12 @@
  
 
 **MTK平台：包括X620系列 刷机步骤类似于fastboot.
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-200312104245U8.jpg)**
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-200312104245U8.jpg)**
 步骤一：选择刷机方式:Media TEKflash dead phone.
 步骤二：升级包选择对应的qfil包X620 deadphone for flashone
 步骤三：按住音量上，插入USB线。 （设备管理器出现MTK port）
 步骤四：点击开始刷机。第一次刷机需 要解压软件包。
-![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the guide for lephone FlashOne/1-20031210430Q95.jpg)
+![乐视FlashOne工具FASTBOOT模式/QFIL模式升级刷机图文解说教程](../files/the_guide_for_lephone_FlashOne/1-20031210430Q95.jpg)
 
 刷机结束，长按开机键开机！
 

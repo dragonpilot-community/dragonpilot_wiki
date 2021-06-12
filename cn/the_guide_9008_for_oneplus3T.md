@@ -33,11 +33,11 @@ https://tieba.baidu.com/p/4956311345?red_tag=1464141473
 如果此时手机不能正常开机，长按电源键大概10S就会强制关机，不要按太久否则会自动重启。
 **3、手机按住音量+按键至少5S，不要松开同时插入电脑，如果此时电脑有提示声，就可以松开。**
 4、打开设备管理器（显示有Qualcomm HS-USB QDloader 9008就行，不一定是COM20，这个是你电脑端口，具体是以你电脑为准）
-![img](../files/the guide 9008 for oneplus3T/24492667d01609243d71adabdd0735fae7cd345b.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/24492667d01609243d71adabdd0735fae7cd345b.jpg)
 
 由于我打开就是9008高通黑砖驱动，所以就不用再安装了。
 下面说说不是9008驱动。你可以用一加万能工具箱里面的黑砖驱动
-![img](../files/the guide 9008 for oneplus3T/935d4d00213fb80e4e6a6f673fd12f2eb8389478.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/935d4d00213fb80e4e6a6f673fd12f2eb8389478.jpg)
 
 5、安装驱动，如果显示如上图所示，就接着操作，如果已显示9008，请跳过此步骤。
     此时有两种方法：
@@ -49,17 +49,17 @@ https://tieba.baidu.com/p/4956311345?red_tag=1464141473
 ——浏览计算机以查找驱动程序软件
 ——点浏览选择你解压的驱动目录
 ——始终安装此驱动程序软件
-![img](../files/the guide 9008 for oneplus3T/abb5553eb80e7bec624f0d51262eb9389a506b1a.jpg)
-![img](../files/the guide 9008 for oneplus3T/1092bbfd1e178a82010e7610ff03738da877e882.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/abb5553eb80e7bec624f0d51262eb9389a506b1a.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/1092bbfd1e178a82010e7610ff03738da877e882.jpg)
 
  如果此时无法安装，请设置电脑——禁用驱动程序签名强制（具体方法百度就有）
 6、打开刷机工具，点start刷入就好（不要看图上的软件版本，用包里的）
-![img](../files/the guide 9008 for oneplus3T/91fb0cf1f736afc3f6d051d5ba19ebc4b54512d3.jpg)
-![img](../files/the guide 9008 for oneplus3T/ea448337afc379319ab4e899e2c4b74541a911d3.jpg)
-![img](../files/the guide 9008 for oneplus3T/6582dbc279310a5522f8b044be4543a9802610d3.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/91fb0cf1f736afc3f6d051d5ba19ebc4b54512d3.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/ea448337afc379319ab4e899e2c4b74541a911d3.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/6582dbc279310a5522f8b044be4543a9802610d3.jpg)
 
 好了，这样 3T就满血复活了![img](https://tb2.bdstatic.com/tb/editor/images/face/i_f25.png?t=20140803)![img](https://tb2.bdstatic.com/tb/editor/images/face/i_f25.png?t=20140803)
 另外，需要注意救砖刷完的是氧OS自行刷回氢！还有同学可能遇到
-![img](../files/the guide 9008 for oneplus3T/36bb3ffafbedab64aa0f4570fe36afc378311eb2.jpg)
+![img](../files/the_guide_9008_for_oneplus3T/36bb3ffafbedab64aa0f4570fe36afc378311eb2.jpg)
 
 **我开始也遇见了，我换了一个USB插口，然后我的驱动因为是自动安装，头一次我直接取消了，不知道是不是这个也是问题，第二次换了插口等它走完就好了。**希望你们一定按照教程！！并祝愿所有小加复生！

@@ -31,8 +31,8 @@
 * [一加3T手机WIFI mac 丢失问题](cn/Oneplus3t_wifi_mac_02_00.md)
 * [一加3T手机分区一键备份恢复工具](cn/openpilot_partition_backup.md)
 #### 系统9008恢复相关教程篇
-* [一加3T的9008教程-来源百度贴吧](cn/the guide 9008 for oneplus3T.md)
-* [乐视手机用flashone工具教程](cn/the guide for lephone FlashOne.md)
+* [一加3T的9008教程-来源百度贴吧](cn/the_guide_9008_for_oneplus3T.md)
+* [乐视手机用flashone工具教程](cn/the_guide_for_lephone_FlashOne.md)
 #### 硬件篇
 * [EON 快拆底座制作指南](cn/EON_Connector.md)
 * [EON 亚克力外壳](cn/eon_acrylic_case.md)
