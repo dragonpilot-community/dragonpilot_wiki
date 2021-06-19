@@ -181,7 +181,7 @@ update_neos() {
   
 }
 
-check_git_host
+#check_git_host
 get_git_branchs
 
 [ "$branch" = "" ] && set_branch
@@ -218,6 +218,8 @@ fi
 
 echo "[$(date +'%F %T')] git clone成功,耗时$((($s2-$s1+60)/60))min"
 
+replace_repo
+exit 0
 read neos_version < /VERSION
 if [ "$neos_version" != "$REQUIRED_NEOS_VERSION" ]; then
   printf "[$(date +'%F %T')] 你选择的openpilot依赖于NEOS $REQUIRED_NEOS_VERSION,与当前的NEOS版本$neos_version不匹配,将会自动下载替换NEOS(更新后若有乱码请重启)\n"
