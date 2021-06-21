@@ -1,4 +1,31 @@
+### dragonpilot 0.8.5-1
 
+- Based on openpilot 0.8.5 devel.
+- 基於 openpilot 0.8.5 devel.
+- Support 1+3t / C2 / Jetson Xavier NX.
+- 支持 1+3t / C2 / Jetson Xavier NX.
+- No White/Grey Panda Support.
+- 不支持白灰熊.
+
+### dragonpilot 0.8.4-3
+
+- 簡化 1+3t 安裝方法. (請查閱 HOWTO-ONEPLUS.md)
+- Simplied 1+3t installation. (See HOWTO-ONEPLUS.md)
+- 加回舊 ssh 登錄.
+- Good old ssh key.
+- 修復本田錯誤. (感謝 @loveloveses)
+- Fixed Honda bug. (Thanks to @loveloveses)
+
+### dragonpilot 0.8.4-2
+
+- 加回可調整加速/跟車設定.
+- Added back Accel/Following Profile.
+- 支持 Headless Jetson Xavier NX ([https://github.com/efinilan/xnxpilot.git](https://hub.fastgit.org/efinilan/xnxpilot.git))
+- Support Headless Jetson Xavier NX ([https://github.com/efinilan/xnxpilot.git](https://hub.fastgit.org/efinilan/xnxpilot.git))
+- 支持 1+3t (需額外安裝手續)
+- Support 1+3t (Require additional install procedure)
+- 支持白/灰熊
+- Support White/Grey Panda.
 
 ### dragonpilot 0.8.4-1
 
