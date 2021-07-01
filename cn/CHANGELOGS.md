@@ -1,3 +1,33 @@
+### dragonpilot 0.8.5-4
+- Added multiple toggles.
+- 新增多个选项
+- Code clean up.
+- 代码整理
+- Android app support. (see selfdrive/dragonpilot/HOWTO-APPD.md)
+- 增加额外app应用支持（参阅selfdrive/dragonpilot/HOWTO-APPD.md）
+- Better support for VW MPQ (Thanks to @Saber)
+- 更好的支持大众MPQ车型（感谢@Saber）
+
+### dragonpilot 0.8.5-3
+- Added Jetson support toggle.
+- 增加Jetson支持选项
+- Added Steering Ratio controller.
+- 增加Steering Ratio控制
+- Reduce Following Profile to 3 modes only. (1.8s / 1.5s / 1.2s)
+- 减少跟车模式，仅保留三段式(1.8s / 1.5s / 1.2s)【openpilot控制纵向的车型】
+- Bug fixes.
+- Bug修复
+
+### dragonpilot 0.8.5-2
+- Added black panda simulation toggle.
+- 增加黑熊模拟选项
+- Added No GPS toggle.
+- 增加无GPS芯片选项
+- Added No Battery Toggle.
+- 增加无电池模式支持选项
+- Bug fixes.
+- Bug修复
+
 ### dragonpilot 0.8.5-1
 
 - Based on openpilot 0.8.5 devel.
