@@ -1,4 +1,110 @@
+个人翻译，如果不妥请联系修改
+
+### dragonpilot 0.8.7-2
+
+- Fixed sound issue.
+
+- 修复了声音问题。
+
+- Changed gpx logs to OSM compatible format.
+
+- 将 gpx 日志更改为 OSM 兼容格式。
+
+- HONDA: Added BSM support for CRV-Hybrid.
+
+- 本田：为 CRV-Hybrid 添加了 BSM 支持。
+
+- HONDA: Added toggle to force displaying km/h in HUD.
+
+- 本田：添加按钮用于强制在 HUD 中显示公里/小时。
+
+- TOYOTA: Add new Toggles under DP - Cars to enable/disable Following Profiles / Accel Profiles with physical button feature.
+
+- 丰田：在 DP - Cars 下添加新的按钮，用来启用或者禁用方向盘物理按键功能，物理按钮可更改跟车距离/加速的配置文件。
+
+  
+
+### dragonpilot 0.8.7-1
+
+- Based on openpilot 0.8.7 devel.
+
+- 基于openpilot 0.8.7 开发版
+
+- Support 1+3t / C2 / Jetson Xavier NX.
+
+- 支持 1+3t / C2 / Jetson Xavier NX 硬件使用
+
+- Support White / Grey Panda.
+
+- 支持 白/灰熊硬件使用
+
+- TOYOTA: Can now change Following Profiles with physical button from the steering wheel.
+
+- 丰田：现在可以使用方向盘上的物理按钮更改跟车距离模式。
+
+- TOYOTA: Can now change Acceleration Profiles with physical button if your car supports it.
+
+- 丰田：如果您的汽车支持，现在可以使用物理按钮更改加速模式。
+
+- TOYOTA: Added Low speed override toggles.
+
+- 丰田：添加了低速覆盖按钮。
+
+- Dev UI now displays RPM reading.
+
+- 开发 UI 现在显示发动机转速 。
+
+- Added Prebuilt toggle for faster boot.
+
+- 添加了预建按钮以加快启动速度
+
+- Lexus RX high RPM fix. (Thanks to @crazysim).
+
+- 雷克萨斯 RX 高转速修复。（感谢@crazysim）。
+
+- Added toggle to launch Language settings.
+
+- 添加按钮用于启动语言设置。
+
+- Added toggle to launch Volume settings.
+
+- 添加按钮用于启动音量设置。
+
+- Added toggle to launch date/time settings.
+
+- 添加按钮用于启动日期/时间设置。
+
+- Added toggle to flash panda.
+
+- 添加按钮用于刷新panda固件。
+
+- Added toggle to recover panda firmware.
+
+- 添加按钮用于恢复panda固件。
+
+- Added toggle to delete logging (/sdcard/realdata).
+
+- 添加按钮用于删除日志记录 (/sdcard/realdata)
+
+- Added GPS Logger.
+
+- 添加了 GPS 记录器。
+
+  
+
+### dragonpilot 0.8.6-1
+
+- Based on openpilot 0.8.6 devel.
+- 基于openpilot 0.8.6 开发版
+- Support 1+3t / C2 / Jetson Xavier NX.
+- 支持 1+3t / C2 / Jetson Xavier NX 硬件使用
+- Support White / Grey Panda.
+- 支持 白/灰熊硬件使用
+
+
+
 ### dragonpilot 0.8.5-4
+
 - Added multiple toggles.
 - 新增多个选项
 - Code clean up.
