@@ -1,7 +1,18 @@
 ## Openpilot 版本更新记录
 * 个人翻译如有不妥欢迎提交修改
 * [更新记录[英文原版]](openpilot_releases_en.md)
-### Version 0.8.8 (2021-08-XX)
+### Version 0.8.8 (2021-08-27)
+
+* 具有改进的无车道性能的新驾驶模型
+  * 使用来自 40 多个国家的 3000 多个用户的 5000 多个小时的各种驾驶数据进行了培训
+  * 模拟器训练期间更好的反作弊方法确保模型在无车道模式下更少拥抱（model hugs less ）
+  * 所有新的期望真实值（ground-truthing）堆栈使模型在变道时更好
+* NEOS 18作为comma two的更新包
+* 用于comma three 的 AGNOS 1.3：修复高温下的显示初始化
+* 改进了comma three的自动曝光
+* 现代 Kona Hybrid 2020 车型支持， 感谢 haram-KONA的贡献!!
+* 现代 Sonata Hybrid 2021 车型支持， 感谢 Matt-Wash-Burn的贡献!!
+* 起亚 Niro Hybrid 2021 车型支持， 感谢 tetious的贡献!!
 
 
 ### Version 0.8.7 (2021-07-31)
