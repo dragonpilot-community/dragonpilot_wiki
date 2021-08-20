@@ -20,7 +20,7 @@
 
 - TOYOTA: Add new Toggles under DP - Cars to enable/disable Following Profiles / Accel Profiles with physical button feature.
 
-- 丰田：在 DP - Cars 下添加新的按钮，用来启用或者禁用方向盘物理按键功能，物理按钮可更改跟车距离/加速的配置文件。
+- 丰田：在 DP - Cars 下添加新的按钮，用来启用或者禁用方向盘物理按键功能，物理按钮（连动屏幕按钮）可更改跟车距离/加速的配置文件。
 
   
 
@@ -40,15 +40,15 @@
 
 - TOYOTA: Can now change Following Profiles with physical button from the steering wheel.
 
-- 丰田：现在可以使用方向盘上的物理按钮更改跟车距离模式。
+- 丰田：现在可以使用方向盘上的物理按钮（连动屏幕按钮），调整跟车距离模式。
 
 - TOYOTA: Can now change Acceleration Profiles with physical button if your car supports it.
 
-- 丰田：如果您的汽车支持，现在可以使用物理按钮更改加速模式。
+- 丰田：如果您的汽车支持，现在可以使用物理按钮（连动屏幕按钮），调整加速模式。
 
 - TOYOTA: Added Low speed override toggles.
 
-- 丰田：添加了低速覆盖按钮。
+- 丰田：添加了低速覆盖按钮（行车中acc时速可以低于最低40km/h的时速，例如可以定速为20km/h行车）。
 
 - Dev UI now displays RPM reading.
 
