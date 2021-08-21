@@ -13,14 +13,20 @@
 
 
 ###  DP fork
+提供两个镜像源ui地址，如果第一个不行可以更换第二个
+两个源都不行请检查自己的网络相关问题
 
-由于国内网络访问 github 的速度不佳，dp维护小组使用了CDN加速，下载CDN上的git压缩包，加快下载速度
+镜像1
+镜像源|特点|域名
+-|-|-
+cnpmjs镜像|0.8.7分支|https://wiki.dpp.cool/dp1/087
+cnpmjs镜像|0.8.5分支|https://wiki.dpp.cool/dp1/085
 
-分支名|特点|域名
--|-
-0.7.8-i18n分支|0.7.8稳定分支|https://wiki.dpp.cool/0.7.8-i18n
-devel-i18n分支|开发分支，相对稳定测试分支|https://wiki.dpp.cool/devel-i18n
-testing分支|新功能尝鲜分支，可能不稳定有bug|https://wiki.dpp.cool/testing
+镜像2
+镜像源|特点|域名
+-|-|-
+fastgit镜像|0.8.7分支|https://wiki.dpp.cool/dp2/087
+fastgit镜像|0.8.5分支|https://wiki.dpp.cool/dp2/085
 
 
 
