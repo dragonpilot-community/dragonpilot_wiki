@@ -17,24 +17,30 @@
 两个源都不行请检查自己的网络相关问题
 
 镜像1
-镜像源|特点|域名
--|-|-
-cnpmjs镜像|0.8.7分支|https://wiki.dpp.cool/dp1/087
-cnpmjs镜像|0.8.5分支|https://wiki.dpp.cool/dp1/085
+
+| 镜像源     | 特点      | 域名                          |
+| ---------- | --------- | ----------------------------- |
+| cnpmjs镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp1/087 |
+| cnpmjs镜像 | 0.8.5分支 | https://wiki.dpp.cool/dp1/085 |
 
 镜像2
-镜像源|特点|域名
--|-|-
-fastgit镜像|0.8.7分支|https://wiki.dpp.cool/dp2/087
-fastgit镜像|0.8.5分支|https://wiki.dpp.cool/dp2/085
+
+| 镜像源     | 特点      | 域名                          |
+| ---------- | --------- | ----------------------------- |
+| fastgit镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp2/087 |
+| fastgit镜像 | 0.8.5分支 | https://wiki.dpp.cool/dp2/085 |
+
 
 
 
 ### 买买熊团队支持的 MP fork（MyPilot）
 说明：MyPilot团队优先支持其用户使用，更多问题请向MyPilot团队咨询，wiki页面仅做收录无利益相关，也希望更多的不同fork能出现并且能给界面化安装
-分支名|域名
--|-
-MP稳定版本|https://c2.openpilot.net
+
+
+
+| 分支名     | 域名                     |
+| ---------- | ------------------------ |
+| MP稳定版本 | https://c2.openpilot.net |
 
 pc浏览器直接访问https://c2.openpilot.net 可以看到对应的界面管理页面以及MP版本说明
 
