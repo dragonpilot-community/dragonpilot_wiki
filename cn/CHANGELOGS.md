@@ -1,4 +1,75 @@
 个人翻译，如果不妥请联系修改
+### dragonpilot 0.8.8-1
+** BETA TESTING ONLY **
+
+** 仅限 Beta 测试 **
+
+- Based on openpilot 0.8.8 devel.
+
+- 基于 openpilot 0.8.8 开发。
+
+- FIXED: dashcam issue.
+
+- 修正：行车记录仪问题。
+
+- FIXED: some VW vehicles issue. (Thanks to @yayism)
+
+- 修正：一些大众汽车问题。（感谢@yayism）
+
+- FIXED: white panda + j533 acc issue. (Thanks to @lirudy)
+
+- 修正：白色熊猫 + j533 acc 问题。（感谢@lirudy）
+
+- ADDED: Auto fake black panda.
+
+- 添加：自动模拟黑熊猫。
+
+- ADDED: 2018 chinese camry hybrid fingerprint (Thanks to @stingshen)
+
+- WIP: mapd.
+
+- WIP：地图功能（地图基于osm提供，能实现op控制纵向的部分区间减速，弯道减速功能，中国区域不一定能使用）
+
+  
+
+### dragonpilot 0.8.7-4
+- 2017 JADE w/ Added Comma Pedal Support. (Thanks to @lijunhao731)
+
+- 2017 JADE 带添加逗号踏板支持。（感谢@lijunhao731）
+
+- Fixed toyota / honda brake light display. (Thanks to @loveloveses)
+
+- 修复了丰田/本田刹车灯显示。（感谢@loveloveses）
+
+- Fixed UI toggle. (Thanks to @鄧育林、@謝聖鴻)
+
+- 修复 UI 按钮。（感谢@邓育林、@谢圣鸿）
+
+- Fixed VW resume/display issue. (Thanks to @SKY)
+
+- 修复了大众恢复/显示问题。（感谢@SKY）
+
+- Fixed CJK font installation issue.
+
+- 修复了 CJK 字体（Chinese-Japanese-Korean）安装问题。
+
+  
+
+### dragonpilot 0.8.7-3
+- Bug fixes.
+
+- Bug修复。
+
+- Fixed gpxd.
+
+- 修复gpxd.。
+
+- Added some Chinese support.
+
+- 添加了一些中文支持。
+
+  
+
 
 ### dragonpilot 0.8.7-2
 
