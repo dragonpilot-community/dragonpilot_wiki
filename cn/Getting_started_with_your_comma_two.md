@@ -30,7 +30,7 @@ Comma two(内置 Black panda)|<img src="/files/comma_2_1.jpg" class="max-h-100">
 
 ![1608623151681](../files/Getting_started_with_your_comma_two/1608623151681.png)
 
-![](F:\githun\dragonpilot_wiki\files\Getting_started_with_your_comma_two\1608623151682.jpg)
+![1608623151682](../files/Getting_started_with_your_comma_two/1608623151682.png)
 
 comma two很容易安装!按照视频指南或使用下面步骤一步一步的完成。
 
