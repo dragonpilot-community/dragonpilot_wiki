@@ -10,7 +10,10 @@
 
 目前DP和MP都可以通过UI界面进行安装
 
-
+###  openpilot原版release2分支
+| 镜像源     | 特点      | 域名                          |
+| ---------- | --------- | ----------------------------- |
+| cnpmjs镜像 | release2分支 | https://wiki.dpp.cool/op/release2 |
 
 ###  DP fork
 提供两个镜像源ui地址，如果第一个不行可以更换第二个
@@ -23,6 +26,9 @@
 | cnpmjs镜像 | 0.8.8分支 | https://wiki.dpp.cool/dp1/088 |
 | cnpmjs镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp1/087 |
 | cnpmjs镜像 | 0.8.5分支 | https://wiki.dpp.cool/dp1/085 |
+| cnpmjs镜像 | 0.8.1分支 | https://wiki.dpp.cool/dp1/081 |
+| cnpmjs镜像 | 0.7.10分支 | https://wiki.dpp.cool/dp1/0710 |
+| cnpmjs镜像 | 0.7.8-i18n分支 | https://wiki.dpp.cool/dp1/078 |
 
 镜像2
 
