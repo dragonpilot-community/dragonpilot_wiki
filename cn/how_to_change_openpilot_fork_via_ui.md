@@ -23,6 +23,7 @@
 
 | 镜像源     | 特点      | 域名                          |
 | ---------- | --------- | ----------------------------- |
+| cnpmjs镜像 | 0.8.9分支 | https://wiki.dpp.cool/dp1/089 |
 | cnpmjs镜像 | 0.8.8分支 | https://wiki.dpp.cool/dp1/088 |
 | cnpmjs镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp1/087 |
 | cnpmjs镜像 | 0.8.5分支 | https://wiki.dpp.cool/dp1/085 |
@@ -34,10 +35,13 @@
 
 | 镜像源     | 特点      | 域名                          |
 | ---------- | --------- | ----------------------------- |
+| fastgit镜像 | 0.8.9分支 | https://wiki.dpp.cool/dp2/089 |
 | fastgit镜像 | 0.8.8分支 | https://wiki.dpp.cool/dp2/088 |
 | fastgit镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp2/087 |
 | fastgit镜像 | 0.8.5分支 | https://wiki.dpp.cool/dp2/085 |
-
+| fastgit镜像 | 0.8.1分支 | https://wiki.dpp.cool/dp2/081 |
+| fastgit镜像 | 0.7.10分支 | https://wiki.dpp.cool/dp2/0710 |
+| fastgit镜像 | 0.7.8-i18n分支 | https://wiki.dpp.cool/dp2/078 |
 
 
 

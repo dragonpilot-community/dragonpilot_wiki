@@ -1,6 +1,25 @@
 ## Openpilot 版本更新记录
 * 个人翻译如有不妥欢迎提交修改
 * [更新记录[英文原版]](openpilot_releases_en.md)
+
+### Version 0.8.10 (2021-XX-XX)
+
+- 斯柯达 Kamiq 2021 车型支持，感谢  jyoung8607的贡献!
+
+- 斯柯达 Karoq 2019 车型支持，感谢 jyoung8607的贡献!
+
+- 大众 California 2021 车型支持，感谢 to jyoung8607的贡献!
+
+  
+
+### Version 0.8.9 (2021-09-14)
+
+- 优化了comma three的风扇控制
+- AGNOS 1.5: 优化稳定性
+- 本田 e 2020 车型支持
+
+
+
 ### Version 0.8.8 (2021-08-27)
 
 * 具有改进的无车道性能的新驾驶模型
@@ -13,6 +32,7 @@
 * 现代 Kona Hybrid 2020 车型支持， 感谢 haram-KONA的贡献!!
 * 现代 Sonata Hybrid 2021 车型支持， 感谢 Matt-Wash-Burn的贡献!!
 * 起亚 Niro Hybrid 2021 车型支持， 感谢 tetious的贡献!!
+
 
 
 ### Version 0.8.7 (2021-07-31)
@@ -39,6 +59,8 @@
 * 大众高尔夫 SportWagen 2015 车型支持，感谢 jona96的贡献!
 * 大众途安 2017 车型支持，感谢 jyoung8607的贡献!
   
+
+
 
 ###  Version 0.8.5 (2021-06-11)
 
