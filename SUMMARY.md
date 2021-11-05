@@ -41,6 +41,7 @@
 * [在一加3T手机上安装DP0.8.4版本](cn/HOWTO-ONEPLUS.md)
 * [常用命令](cn/commands.md)
 * [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
+* [dragonpilot导航生成秘钥说明](cn/mapbox_Access_tokens.md)
 * [NEOS 降级指南](cn/how_to_downgrade_neos.md)
 * [手动升级NEOS15](cn/updateNEOS15.md)
 * [Panda 固件更新教程](cn/how_to_flash_panda.md)
