@@ -23,6 +23,10 @@
 • 目前此工具支持产品：乐2、乐2Pro、乐Max2（X520/X620/X820），乐3Pro，酷派C105-6
 • 当前工具版本：V1.9/V2.0 工具下载：
 
+[乐视刷机工具](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/9008-tools/leopro3/flashtools.rar)
+
+[乐视PRO3刷机全量包](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/9008-tools/leopro3/le_zl1_qfil_ufs.zip)
+
 
 
 **Fastboot模式**

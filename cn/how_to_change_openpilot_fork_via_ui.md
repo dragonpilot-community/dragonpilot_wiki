@@ -23,6 +23,7 @@
 
 | 镜像源     | 特点      | 域名                          |
 | ---------- | --------- | ----------------------------- |
+| cnpmjs镜像 | 0.8.10分支 | https://wiki.dpp.cool/dp1/0810 |
 | cnpmjs镜像 | 0.8.9分支 | https://wiki.dpp.cool/dp1/089 |
 | cnpmjs镜像 | 0.8.8分支 | https://wiki.dpp.cool/dp1/088 |
 | cnpmjs镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp1/087 |
@@ -35,6 +36,7 @@
 
 | 镜像源     | 特点      | 域名                          |
 | ---------- | --------- | ----------------------------- |
+| fastgit镜像 | 0.8.10分支 | https://wiki.dpp.cool/dp2/0810 |
 | fastgit镜像 | 0.8.9分支 | https://wiki.dpp.cool/dp2/089 |
 | fastgit镜像 | 0.8.8分支 | https://wiki.dpp.cool/dp2/088 |
 | fastgit镜像 | 0.8.7分支 | https://wiki.dpp.cool/dp2/087 |
@@ -57,6 +59,71 @@
 pc浏览器直接访问https://c2.openpilot.net 可以看到对应的界面管理页面以及MP版本说明
 
 ![mypliot](../files/how_to_change_openpilot_fork_via_ui/mypliot.jpg)
+
+
+
+
+
+### sshane的UI界面自动安装任意fork方法
+
+githun用户sshane在自己的页面给出的任意安装fork方法，默认使用的是githun镜像源，没有富强速度会慢，特点可以是安装任意fork,分支名必须和githun上对应的一样
+
+如下图示例
+
+分支名必须和githun上一样，0.6.1-en这个分支必须填完整
+
+![image-20211117134621779](../files/how_to_change_openpilot_fork_via_ui/image-20211117134621779.png)
+
+
+
+在设备的ui页面内输入
+<u>https://smiskol.com/fork/[githun用户名]/{分支名}/{加载信息}</u>
+dp安装
+
+| dp    | 特点      | 域名                          |
+| ---------- | --------- | ----------------------------- |
+| dp | 0.8.10分支 | https://smiskol.com/fork/dp/0.8.10 |
+| dp | 0.8.9分支 | https://smiskol.com/fork/dp/0.8.9 |
+| dp | 0.6.1分支 | https://smiskol.com/fork/dp/0.6.1-en |
+
+op安装
+| op    | 特点      | 域名                          |
+| ---------- | --------- | ----------------------------- |
+| op | release2分支 | https://smiskol.com/fork/commaai |
+
+sshane的fork安装
+| sshane    | 特点      | 域名                          |
+| ---------- | --------- | ----------------------------- |
+| sshane | 默认分支 | https://smiskol.com/fork/shane |
+
+
+
+国内用户mr-one按照sshane的网站架设了镜像网站，使用cnpmjs镜像源，所以国内可以使用这个网址
+
+在设备的ui页面内输入
+<u>https://mr-one.cn/fork/[githun用户名]/{分支名}/{加载信息}</u>
+
+dp安装
+
+| dp   | 特点       | 域名                               |
+| ---- | ---------- | ---------------------------------- |
+| dp   | 0.8.10分支 | https://mr-one.cn/fork/dp/0.8.10 |
+| dp   | 0.8.9分支  | https://mr-one.cn/fork/dp/0.8.9  |
+| dp   | 0.6.1分支 | https://mr-one.cn/fork/dp/0.6.1-en |
+
+op安装
+
+| op   | 特点         | 域名                             |
+| ---- | ------------ | -------------------------------- |
+| op   | release2分支 | https://mr-one.cn/fork/commaai |
+
+sshane的fork安装
+
+| sshane | 特点     | 域名                         |
+| ------ | -------- | ---------------------------- |
+| sshane | 默认分支 | https://mr-one.cn/fork/shane |
+
+
 
 
 

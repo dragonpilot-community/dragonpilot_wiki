@@ -10,7 +10,7 @@
 * [常见术语](cn/Glossary_of_terminology.md)
 * [常见硬件](cn/hardwares.md)
 * [Openpilot 硬件购买篇](cn/how_to_buy_openpilot.md)
-* [通过界面安装 openpilot 分支版本](cn/how_to_change_openpilot_fork_via_ui.md)
+* [通过UI界面安装 openpilot 分支版本](cn/how_to_change_openpilot_fork_via_ui.md)
 * [按照步骤一步一步安装comma two](cn/Getting_started_with_your_comma_two.md)
 * [首次使用dragonpilot时候各种画面说明](cn/frist_time_for_op_option.md)
 * [常见问题处理方法-新手向](cn/settle_normal_problem.md)
@@ -18,7 +18,7 @@
 #### 软件资料下载
 * [常用软件资料下载](cn/openpilot_software_free_download.md)
 #### 安装进阶篇
-* [国内镜像](/mirror.md)
+* [国内镜像](mirror.md)
 * [配置putty和winscp](cn/putty_and_winscp.md)
 * [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
 * [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
@@ -42,6 +42,7 @@
 * [常用命令](cn/commands.md)
 * [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
 * [dragonpilot导航生成秘钥说明](cn/mapbox_Access_tokens.md)
+* [MAPBOX 建立样式及设定个性化中文地图名称](cn/mapbox_Map_change.md)
 * [NEOS 降级指南](cn/how_to_downgrade_neos.md)
 * [手动升级NEOS15](cn/updateNEOS15.md)
 * [Panda 固件更新教程](cn/how_to_flash_panda.md)
