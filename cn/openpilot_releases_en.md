@@ -2,16 +2,50 @@
 
 - [更新记录[中文翻译]](openpilot_releases.md)
 
+###  Version 0.8.11 (2021-11-22)
 
-### Version 0.8.10 (2021-XX-XX)
+  - Support for an external panda on the comma three
+  - Navigation: Show more detailed instructions when approaching maneuver
+  - Fixed occasional steering faults on GM cars thanks to jyoung8607!
+  - Nissan ECU firmware fingerprinting thanks to robin-reckmann, martinl and razem-io!
+  - Cadillac Escalade ESV 2016 support thanks to Gibby!
+  - Mazda CX-9 2021 support thanks to Jacar!
+  - Volkswagen Polo 2020 support thanks to jyoung8607!
 
-- Škoda Kamiq 2021 support thanks to jyoung8607!
 
-- Škoda Karoq 2019 support thanks to jyoung8607!
 
-- Volkswagen California 2021 support thanks to jyoung8607!
+### Version 0.8.10 (2021-11-01)
 
-  
+  - New driving model
+    - Trained on one million minutes!!!
+    - Fixed lead training making lead predictions significantly more accurate
+    - Fixed several localizer dataset bugs and loss function bugs, overall improved accuracy
+  - New driver monitoring model
+    - Trained on latest data from both comma two and comma three
+    - Increased model field of view by 40% on comma three
+    - Improved model stability on masked users
+    - Improved pose prediction with reworked ground-truth stack
+  - Lateral and longitudinal planning MPCs now in ACADOS
+  - Combined longitudinal MPCs
+    - All longitudinal planning now happens in a single MPC system
+    - Fixed instability in MPC problem to prevent sporadic CPU usage
+  - AGNOS 2: minor stability improvements and builder repo open sourced
+  - tools: new and improved replay thanks to deanlee!
+  - Moved community-supported cars outside of the Community Features toggle
+  - Improved FW fingerprinting reliability for Hyundai/Kia/Genesis
+  - Added prerequisites for longitudinal control on Hyundai/Kia/Genesis and Honda Bosch
+  - Audi S3 2015 support thanks to jyoung8607!
+  - Honda Freed 2020 support thanks to belm0!
+  - Hyundai Ioniq Hybrid 2020-2022 support thanks to sunnyhaibin!
+  - Hyundai Santa Fe 2022 support thanks to sunnyhaibin!
+  - Kia K5 2021 support thanks to sunnyhaibin!
+  - Škoda Kamiq 2021 support thanks to jyoung8607!
+  - Škoda Karoq 2019 support thanks to jyoung8607!
+  - Volkswagen Arteon 2021 support thanks to jyoung8607!
+  - Volkswagen California 2021 support thanks to jyoung8607!
+  - Volkswagen Taos 2022 support thanks to jyoung8607!
+
+
 
 ### Version 0.8.9 (2021-09-14)
 

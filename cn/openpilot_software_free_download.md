@@ -24,9 +24,15 @@ Openpilot相关使用软件：（豆友提供）
 
 [dp阿里云地址neos16](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/neos/neos16/ota-signed-bc7f5d76a9942c7cf7968701641005382c24d35c7eaa227f3609c3fd0964ba1a.zip)
 
+[dp阿里云地址neos17](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/neos/neos17/ota-signed-c4f56c62c5603c86e2ae9d83008a8d42a91319979661d0c42fb97b85d9112266.zip)
+
+[dp阿里云地址neos18](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/neos/neos18/ota-signed-5dc2575d713977666a8e14ae1b43a04d7f63123934c80fa10751d949a107653e.zip)
+
   neos15 链接 https://cloud.189.cn/t/naInuyzMZRju
 
-  
+  [一加手机专用开机upadte，刷完neos18以后使用](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/neos/neos18/update.zip)
+
+
 
 ### twrp-3.3.1版本下载
 
@@ -58,17 +64,23 @@ twrp可以在线安装，相关参考[关于TWRP使用的部分说明](/cn/about
 
   7.乐视Pro3 (乐视X720 X722 X728 )救砖包.rar
 
+
+
   ### Putty （SSH 工具）
 
 [dp阿里云putty链接](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/ssh-tools-pc/tools/putty-0.74-installer.msi)
 
   天翼云链接 https://cloud.189.cn/t/fmEBreUFbaMn
 
+
+
   ### Winscp （Windows 下通过 SSH 传输文件工具）
 
 [dp阿里云WINSCP链接](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/ssh-tools-pc/tools/WinSCP-5.17.8-Setup.exe)
 
   天翼云链接 https://cloud.189.cn/t/IjAvyq6ZbQ3m
+
+
 
   ### Openpilot SSH 私钥-ppk类型，putty和winscp使用，pem为私钥文件格式
 
@@ -78,17 +90,31 @@ twrp可以在线安装，相关参考[关于TWRP使用的部分说明](/cn/about
 
   天翼云链接 https://cloud.189.cn/t/2yMveyqAzmqi
 
+
+
   ### 一加3T救砖工具+降级包（6.0.1）
 
 [dp阿里云一加3T救砖工具+降级包链接](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/9008-tools/oneplus3T/OnePlus3T_28_A.23_161027.rar)
 
   天翼云链接 https://cloud.189.cn/t/3yAfamryYbyi
 
+
+
   ### 一加全机型万能工具箱v3.7.5
 
 [dp阿里云一加工具箱3.7.5链接](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/9008-tools/oneplus3T/%E4%B8%80%E5%8A%A0%E5%85%A8%E6%9C%BA%E5%9E%8B%E4%B8%87%E8%83%BD%E5%B7%A5%E5%85%B7%E7%AE%B1v3.7.5.exe)
 
   天翼云链接 https://cloud.189.cn/t/nYRVJzIjY3ei
+
+
+
+### 乐视救砖工具+降级包
+
+[乐视刷机工具](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/9008-tools/leopro3/flashtools.rar)
+
+[乐视PRO3刷机全量包](https://dragonpilot.oss-cn-shanghai.aliyuncs.com/otherFiles/software/9008-tools/leopro3/le_zl1_qfil_ufs.zip)
+
+
 
   ### 酷派S1（c105-6）刷乐视pro3相关工具
 

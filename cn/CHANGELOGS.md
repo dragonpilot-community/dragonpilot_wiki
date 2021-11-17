@@ -1,4 +1,80 @@
 个人翻译，如果不妥请联系修改
+
+
+
+### dragonpilot 0.8.10-1
+
+- Based on openpilot 0.8.10 devel.
+- 基于 openpilot 0.8.10 开发版。
+- FIXED: Device w/ battery no longer need to set auto shutdown to 1 min.
+- 修复：带电池的设备不再需要将自动关机设置为 1 分钟。
+- NAV: Added auto Day/Night Mode.
+- NAV：添加了自动日/夜模式。
+- NAV: Added customizable style.
+- NAV：添加了可自定义的样式。
+- REMOVED: Timebomb feature for VW.
+- 删除：大众的Timebomb功能。
+- REMOVED: Support of running Android apps.
+- 移除了运行 Android 应用程序功能。
+- ISSUED: Following Profile is disabled. (Waiting for re-implementation)
+- 发布：跟车配置文件已禁用。（等待重新实施）
+
+### dragonpilot 0.8.9-3
+
+- Bug fixes.
+- Bug修复。
+- Fixed up auto updater.
+- 修复了自动更新程序。
+- Fixed Honda Jade dbc. (Thanks to @lijunhao731)
+- 修复了本田 Jade dbc。（感谢@lijunhao731）
+- ADDED: 0.8.10 model.
+- 添加：0.8.10 模型。
+- ADDED: Nav for all device.
+- 添加：所有设备的导航。
+- ADDED: Support for Nvidia Xavier.
+- 添加：支持 Nvidia Xavier。
+
+### dragonpilot 0.8.9-2
+
+- Bug fixes.
+- Bug修复。
+- Refactor UI related changes.
+- 重构 UI 相关的更改。
+- Updated Simplified Chinese translation. (Thanks to @CCZ)
+- 更新了简体中文翻译。（感谢@CCZ）
+- WARNING: Due to recent OP change, Device w/ battery recommended setting autoshutdown to 1 min to prevent libusb error.
+- 警告：由于最近的 OP 更改，建议带电池的设备将自动关机设置为 1 分钟以防止 libusb 错误。
+- Re-tuned acceleraton profile. (Thank to @wer5lcy)
+- 重新调整加速配置文件。（感谢@wer5lcy）
+- ADDED: Car port for Toyota Prius Alpha. (Thanks to @CT921)
+- 添加：丰田普锐斯阿尔法的汽车端口。（感谢@CT921）
+
+### dragonpilot 0.8.9-1
+
+- Based on openpilot 0.8.8 devel.
+- 基于 openpilot 0.8.8 开发版。
+- Re-introduce Follow Distance 4th profile (2.2s / 1.8s / 1.5s / 1.2s).
+- 重新引入跟随距离四个配置文件（2.2s / 1.8s / 1.5s / 1.2s）。
+- ADDED: New softer sound for c3.
+- 添加：c3 新的更柔和的声音。
+- ADDED: Dynamic Lane Profile. (Thanks to @sunnyhaibin)
+- 添加：动态车道配置文件。（感谢@sunnyhaibin）
+- Bug Fixes.
+- Bug修复。
+
+### dragonpilot 0.8.8-2
+
+- ADDED: newer faster and modularized mapd and slow down for curve. (Thanks to @move-fast)
+- 添加：更新更快和模块化的映射和曲线减速。（感谢@move-fast）
+- ADDED: Street name on the bottom bar.
+- 添加：底部栏上的街道名称。
+- ADDED: Now supports 1+3t / C2 / C3 / Jetson Xavier NX.
+- 增加：现在支持 1+3t / C2 / C3 / Jetson Xavier NX。
+- ADDED: Smoother tune for PRIUS_TSS2.
+- 增加：PRIUS_TSS2 的平滑调整。
+- Bug fixes.
+- Bug修复。
+
 ### dragonpilot 0.8.8-1
 ** BETA TESTING ONLY **
 

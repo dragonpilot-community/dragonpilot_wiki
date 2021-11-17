@@ -22,7 +22,7 @@
 #### 软件资料下载
 - [常用软件资料下载](cn/openpilot_software_free_download.md)
 #### 安装进阶篇
-- [国内镜像](/mirror.md)
+- [国内镜像](cn/mirror.md)
 - [配置putty和winscp](cn/putty_and_winscp.md)
 - [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
 - [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
@@ -42,10 +42,11 @@
 - [EON 亚克力外壳](cn/eon_acrylic_case.md)
 #### 高阶资料篇
 - [OP设置SSH-绑定GitHub账户](cn/how_to_setup_github_ssh.md)
-- [在一加3T手机上安装DP0.8.4版本](cn/HOWTO-ONEPLUS.md)
+- [在一加3T手机上安装DP0.8.4以上版本](cn/HOWTO-ONEPLUS.md)
 - [常用命令](cn/commands.md)
 - [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
 - [dragonpilot导航生成秘钥说明](cn/mapbox_Access_tokens.md)
+- [MAPBOX 建立样式及设定个性化中文地图名称](cn/mapbox_Map_change.md)
 - [NEOS 降级指南](cn/how_to_downgrade_neos.md)
 - [手动升级NEOS15](cn/updateNEOS15.md)
 - [Panda 固件更新教程](cn/how_to_flash_panda.md)

@@ -3,7 +3,7 @@
 NEOS 是运行在 EON 上的，基于 Android 6.0 改造的系统，为了适配 openpilot 的版本更新， NEOS 系统也在不断的更新，新版本的 NEOS 没有开源系统代码，但是官方会在 Github 释放出下载链接，如果你的系统安装了新版的 openpilot，也会收到系统升级提示，可以通过点击升级按钮升级系统。
 
 - commaai/eon-neos：[https://github.com/commaai/eon-neos](https://github.com/commaai/eon-neos)
-- neos 镜像下载地址（boot.img 和 system.simg）：[http://d.sdut.me/neos](http://d.sdut.me/neos)
+- neos 镜像下载地址请到常用软件下载中下载：[常用软件资料下载](openpilot_software_free_download.md)
 
 
 ### 系统版本
@@ -26,6 +26,8 @@ openpilot 版本| NEOS 版本
 0.7.4 ~ 0.7.9| 14.1
 0.7.10-0.82| 15.1
 0.8.3| 16.2
+0.8.4-0.87| 17
+0.8.8以上| 18
 
 其中，NEOS 12 以下的版本都是 Python 2 环境，NEOS 12 以上则完全使用了 Python 3 环境，NEOS 13 加入了 SCons 工具，系统版本和 NEOS 版本可以通过一下命令查询：
 
@@ -55,11 +57,34 @@ root@localhost:/$ cat /data/openpilot/panda/VERSION
 v1.4.2
 ```
 
-### 降级步骤
+### 简易版本降级步骤
+##### UI界面安装降级方法
+
+1.设备上点击卸载
+
+2.重启设备后在UI页面上输入dp安装网址进行安装对应分支，如0.66分支。参考下面链接
+
+[[通过UI界面安装 openpilot 分支版本](how_to_change_openpilot_fork_via_ui.md)]
+
+3.dp对应版本会自动下载对应neos，使用阿里云配置国内镜像服务器，下载速度足够，如有问题请联系dp相关管理人员进行维护
+
+##### DP脚本工具降级方法
+
+```bash
+wget "http://wiki.dragonpilot.cn/files/software/clone_dp.sh" -O clone_dp.sh && \
+dos2unix clone_dp.sh && sh clone_dp.sh
+```
+putty下ssh使用DP脚本工具效果如图
+
+![1614668110907](../files/how_to_change_openpilot_fork_via_ui/1614668110907.png)
+
+
+
+### 通用版本降级步骤
 
 1. 确保你的电脑上安装了 最新版的 Fastboot（[fastboot 下载地址](https://developer.android.com/studio/releases/platform-tools?hl=zh_cn)）。
 2. 手机解锁了 bootloader，并且获得了 root 权限（[B 站参考视频](https://www.bilibili.com/video/av66821136)）。
-3. 下载你所需要版本的系统镜像（boot.img 和 system.simg，[NEOS 镜像下载地址](http://d.sdut.me/neos)）。
+3. 下载你所需要版本的系统镜像([常用软件资料下载](openpilot_software_free_download.md))。
 4. 按住一加手机『音量上』和 『电源键』进入 Fastboot 模式（乐视 pro3 是 『音量下』 和 『电源键』）。
 5. 手机通过 USB 数据线连接到电脑。
 6. 把  boot.img、system.simg 和 fastboot.exe 一个目录里。
@@ -94,5 +119,4 @@ scons -i
 #等待编译完成后，重启
 reboot
 ```
-
 
