@@ -18,7 +18,7 @@
 #### 软件资料下载
 * [常用软件资料下载](cn/openpilot_software_free_download.md)
 #### 安装进阶篇
-* [国内镜像](mirror.md)
+* [国内镜像](cn/mirror.md)
 * [配置putty和winscp](cn/putty_and_winscp.md)
 * [使用 Putty SSH 切换 openpilot 分支版本](cn/how_to_change_openpilot_fork_on_windows.md)
 * [iPhone 手机上 SSH 连接到 openpilot](cn/how_to_connect_openpilot_via_iphone.md)
