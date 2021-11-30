@@ -7,9 +7,7 @@
 ### Version 0.8.12 (2021-12-XX)
 
 - 本田雅阁 2021车型支持， 感谢 csouers的贡献!
-
 - 本田雅阁混动2021车型支持， 感谢 csouers的贡献!
-
 - 雷克萨斯RC 2020车型支持， 感谢ErichMoraga的贡献!
 
   
@@ -25,7 +23,7 @@
   - 日产 ECU 固件指纹识别，感谢 robin-reckmann、martinl 和 razem-io的贡献!
   - 凯迪拉克 Escalade ESV 2016 车型支持，感谢Gibby 的贡献!
   - 捷尼赛思G70 2020车型支持，感谢tecandrew的贡献!
-- 现代胜达*Santa Fe* 混动 2022车型支持，感谢sunnyhaibin的贡献!
+  - 现代胜达*Santa Fe* 混动 2022车型支持，感谢sunnyhaibin的贡献!
   - Mazda CX-9 2021车型支持，感谢 Jacar的贡献!
   - 大众 Polo 2020车型支持，感谢 jyoung8607的贡献!
   - 大众 T-Roc 2021 车型支持，感谢 jyoung8607的贡献!
