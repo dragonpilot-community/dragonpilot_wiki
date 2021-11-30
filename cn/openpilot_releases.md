@@ -2,15 +2,35 @@
 * 个人翻译如有不妥欢迎提交修改
 * [更新记录[英文原版]](openpilot_releases_en.md)
 
+
+
+### Version 0.8.12 (2021-12-XX)
+
+- 本田雅阁 2021车型支持， 感谢 csouers的贡献!
+
+- 本田雅阁混动2021车型支持， 感谢 csouers的贡献!
+
+- 雷克萨斯RC 2020车型支持， 感谢ErichMoraga的贡献!
+
+  
+
 ### Version 0.8.11  (2021-11-22)
 
+ 更多详细说明可以参考 https://blog.comma.ai/0811release/
+
+  - 在red panda上支持CAN FD端口
   - 支持一个外部panda在comma three上使用
   - 导航：在导航过程中显示更详细的说明
   - 修复了 GM 车型偶尔出现的转向故障，感谢 jyoung8607的贡献!
   - 日产 ECU 固件指纹识别，感谢 robin-reckmann、martinl 和 razem-io的贡献!
   - 凯迪拉克 Escalade ESV 2016 车型支持，感谢Gibby 的贡献!
+  - 捷尼赛思G70 2020车型支持，感谢tecandrew的贡献!
+- 现代胜达*Santa Fe* 混动 2022车型支持，感谢sunnyhaibin的贡献!
   - Mazda CX-9 2021车型支持，感谢 Jacar的贡献!
   - 大众 Polo 2020车型支持，感谢 jyoung8607的贡献!
+  - 大众 T-Roc 2021 车型支持，感谢 jyoung8607的贡献!
+
+
 
 ### Version 0.8.10  (2021-11-01)
 
