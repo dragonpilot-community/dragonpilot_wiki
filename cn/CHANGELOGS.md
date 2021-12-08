@@ -1,23 +1,53 @@
 个人翻译，如果不妥请联系修改
 
+### dragonpilot 0.8.10-3
 
+- NAV: Gaode/amap to use new key combination. (Thanks to @loveloveses)
+- 导航：高德地图需要使用新的key和安全秘钥(感谢 @loveloveses)
 
 ### dragonpilot 0.8.10-1
 
 - Based on openpilot 0.8.10 devel.
+
 - 基于 openpilot 0.8.10 开发版。
-- FIXED: Device w/ battery no longer need to set auto shutdown to 1 min.
-- 修复：带电池的设备不再需要将自动关机设置为 1 分钟。
+
+- Better Subaru support. (Thanks to @martinl https://github.com/martinl/openpilot)
+
+- 对斯巴鲁车型更好的支持（感谢@martinl https://github.com/martinl/openpilot）
+
+- NAV: Added use of Navigation tab to access home/work/recent dest.
+
+- 导航：增加了导航选项中按钮对应 住家/工作/最近地址
+
 - NAV: Added auto Day/Night Mode.
-- NAV：添加了自动日/夜模式。
+
+- 导航：添加了自动日/夜模式。
+
 - NAV: Added customizable style.
-- NAV：添加了可自定义的样式。
+
+- 导航：添加了可自定义的样式。
+
+- NAV: Added Gaode/amap Search. (Thanks to @loveloveses)
+
+- 导航：增加了高德地图作为导航的地点的选择（感谢@loveloveses）
+
+- FIXED: Device w/ battery no longer need to set auto shutdown to 1 min.
+
+- 修复：无电池的设备不再需要将自动关机设置为 1 分钟。
+
+- FIXED: Auto shutdown while on bench (Thanks to @sunnyhaibin)
+
+- 修复：工作中自动关机的问题（感谢@sunnyhaibin）
+
 - REMOVED: Timebomb feature for VW.
-- 删除：大众的Timebomb功能。
+
+- 移除：去除大众的Timebomb功能。
+
 - REMOVED: Support of running Android apps.
-- 移除了运行 Android 应用程序功能。
-- ISSUED: Following Profile is disabled. (Waiting for re-implementation)
-- 发布：跟车配置文件已禁用。（等待重新实施）
+
+- 移除：不在支持运行Android 应用程序功能。
+
+  
 
 ### dragonpilot 0.8.9-3
 

@@ -42,6 +42,7 @@
 * [常用命令](cn/commands.md)
 * [dragonpilot特性使用说明](cn/dragonpilot_feature.md)
 * [dragonpilot导航生成秘钥说明](cn/mapbox_Access_tokens.md)
+* [高德地图api申请教程](cn/Amap_Access_tokens.md)
 * [MAPBOX 建立样式及设定个性化中文地图名称](cn/mapbox_Map_change.md)
 * [NEOS 降级指南](cn/how_to_downgrade_neos.md)
 * [手动升级NEOS15](cn/updateNEOS15.md)
