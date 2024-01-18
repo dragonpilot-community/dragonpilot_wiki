@@ -40,7 +40,7 @@ EON|<img src="/files/eon_front.jpg" class="max-h-100"><img src="/files/eon_back1
 
 Harness 是二代硬件中新加入的部分，其中部分线束代替了原来 Giraffe 的功能，用来连接 Panda 和原车 ACC 模块，另外 Harness 模块中还加入了自动切换功能（继电器），可以在 EON 工作不正常、没有连接的时候，自动切换到原车 ACC，和原来 Giraffe 上的指拨开关功能一致，但是自动切换的实现，更加方便了。
 
-Black Panda，如果说 Grey Panda 是对 White Panda 的一次升级，Black Panda 可以说是 Grey Panda 的再次升级，想必 Grey 版本，Black 使用 USB Type-C 口与 Harness 传输 OBD 数据，而且体积更小，同时包含高精度 GPS，可以说是 Grey Panda 的体积缩小版，更加方便固定在前挡风玻璃上。
+Black Panda，如果说 Grey Panda 是对 White Panda 的一次升级，Black Panda 可以说是 Grey Panda 的再次升级，相比 Grey 版本，Black 使用 USB Type-C 口与 Harness 传输 OBD 数据，而且体积更小，同时包含高精度 GPS，可以说是 Grey Panda 的体积缩小版，更加方便固定在前挡风玻璃上。
 
 Comma power v2 的升级，也是接口的升级，使用 RJ-45（网线口）代替原有接口，使用一条网线即可实现供电的连接，另外，据说 Comma power v2 还可以作为额外的一路 CAN 总线数据，提供 VIN 查询（待验证），虽然作为本田雅阁车主，不需要这个东西，但是还是对他的未来功能，抱有幻想。
 
